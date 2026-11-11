@@ -1,0 +1,680 @@
+{
+  "meta": {
+    "siteName": "JC Flow Media",
+    "home": {
+      "title": "JC Flow Media: a creative + tech studio for Bali businesses",
+      "description": "A creative + tech studio for Bali businesses: photo & video, social media, branding, websites (landing pages, business and booking sites), SEO and operations."
+    },
+    "studio": {
+      "title": "Studio: photo & video, social media, design, branding",
+      "description": "JC Flow Studio helps Bali businesses look their best: property photo & video, social media, design, and branding & logos."
+    },
+    "systems": {
+      "title": "Systems: websites, SEO and operations",
+      "description": "Landing pages, business websites, booking websites, redesigns, SEO, OTA management, Google Business and online ordering for Bali businesses."
+    },
+    "karya": {
+      "title": "Work: photo, video and websites",
+      "description": "Selected work by JC Flow Media for villas and businesses in Bali, shown with the owners' permission."
+    },
+    "partner": {
+      "title": "Our partners",
+      "description": "Bali businesses that work with JC Flow Media: villas, a guesthouse, a restaurant and a foundation."
+    },
+    "tentang": {
+      "title": "About us",
+      "description": "Who JC Flow Media is, how we work, and where we work in South Bali (Sarbagita)."
+    },
+    "audit": {
+      "title": "Free Listing Audit for villas",
+      "description": "Sign up for a free listing audit: we review 5 key areas of your villa listing and send you a one-page PDF."
+    },
+    "kontak": {
+      "title": "Contact",
+      "description": "Reach JC Flow Media on WhatsApp, email, Instagram or the contact form. Let's chat, no obligation."
+    },
+    "privasi": {
+      "title": "Privacy Policy",
+      "description": "What data this website collects, why, how long we keep it, and how to ask us to delete it."
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you're looking for doesn't exist."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "studio": "Studio",
+    "systems": "Systems",
+    "karya": "Work",
+    "partner": "Partners",
+    "tentang": "About",
+    "audit": "Free Audit",
+    "kontak": "Contact",
+    "privasi": "Privacy Policy",
+    "menu": "Menu",
+    "close": "Close menu",
+    "skip": "Skip to content",
+    "langLabel": "Language",
+    "switchLabel": "Ganti ke Bahasa Indonesia",
+    "primary": "Main navigation",
+    "cta": "Chat on WhatsApp",
+    "homeLabel": "JC Flow Media, go to home page"
+  },
+  "wa": {
+    "float": "Chat on WhatsApp",
+    "floatLabel": "Chat with JC Flow Media on WhatsApp",
+    "messages": {
+      "home": "Hi JC Flow, I'd like to chat about my business.",
+      "studio": "Hi JC Flow, I'm interested in your Studio services. (STUDIO)",
+      "branding": "Hi JC Flow, I'm interested in branding & logo design. (BRANDING)",
+      "systems": "Hi JC Flow, I'd like a website for my business. (WEBSITE)",
+      "karya": "Hi JC Flow, I've seen your work and would like to chat.",
+      "partner": "Hi JC Flow, I'd like to work with you.",
+      "tentang": "Hi JC Flow, I'd like to get to know you.",
+      "audit": "Hi JC Flow, I have a question about the Free Listing Audit.",
+      "kontak": "Hi JC Flow, I'd like to chat about my business.",
+      "privasi": "Hi JC Flow, I have a question about my data.",
+      "notFound": "Hi JC Flow, I got a bit lost on your website.",
+      "operasional": "Hi JC Flow, I'm interested in your operations services. (OPERASIONAL)"
+    }
+  },
+  "common": {
+    "illustration": "Illustration",
+    "chatWa": "Chat on WhatsApp",
+    "ctaGeneral": "Let's chat, no obligation.",
+    "packages": "Packages tailored to your business.",
+    "seeAll": "See all work",
+    "learnMore": "Learn more",
+    "opensNewTab": "(opens in a new tab)",
+    "divider": "Visuals that attract + systems and operations that make booking easy."
+  },
+  "home": {
+    "hero": {
+      "rotatePrefix": "from",
+      "rotate": [
+        "villas",
+        "restaurants",
+        "cafés",
+        "local brands"
+      ],
+      "sub": "From content and branding to websites and online operations, we help your business look great and get booked more easily.",
+      "ctaAudit": "Free listing audit",
+      "badge": "Photos, content, websites. One team.",
+      "chipStudio": "Studio",
+      "chipSystems": "Systems",
+      "titleA": "A creative",
+      "titleB": "tech studio for Bali businesses"
+    },
+    "marquee": [
+      "Photo & Video",
+      "Social Media",
+      "Design",
+      "Branding & Logos",
+      "Websites",
+      "SEO",
+      "Google Business"
+    ],
+    "divisions": {
+      "title": "One team for how your business looks and works",
+      "studio": {
+        "name": "JC Flow Studio",
+        "desc": "Photo & video, social media, design, branding & logos.",
+        "items": [
+          "Property photo & video",
+          "Social media management",
+          "Menu & promo design",
+          "Branding & logos"
+        ],
+        "link": "Explore Studio",
+        "kicker": "Create"
+      },
+      "systems": {
+        "name": "JC Flow Systems",
+        "desc": "Websites, SEO, and operations.",
+        "items": [
+          "Landing pages, business & booking sites",
+          "SEO & Google Business",
+          "OTA management & property onboarding",
+          "Online ordering (GoFood, GrabFood)"
+        ],
+        "link": "Explore Systems",
+        "kicker": "Connect + Convert"
+      }
+    },
+    "works": {
+      "title": "Made in Bali, for guests from anywhere",
+      "lead": "Everything shown here is published with the owner's permission."
+    },
+    "process": {
+      "title": "Four steps, no fuss",
+      "lead": "From the first chat to the review, you always know what happens next.",
+      "steps": [
+        {
+          "title": "Talk",
+          "desc": "Tell us about your business and goals, on WhatsApp or in person."
+        },
+        {
+          "title": "Plan",
+          "desc": "We put together a plan and a package that fits, not a one-size-fits-all deal."
+        },
+        {
+          "title": "Deliver",
+          "desc": "The shoot, content, design or website gets done on the schedule we agreed."
+        },
+        {
+          "title": "Review",
+          "desc": "We look at the results together and decide what comes next."
+        }
+      ],
+      "end": "Start with step 1"
+    },
+    "audit": {
+      "title": "Is your villa listing pulling its weight?",
+      "lead": "We review 5 key areas and send you a one-page PDF. Free, no strings attached.",
+      "cta": "Get your free audit"
+    },
+    "partners": {
+      "label": "Our partners",
+      "link": "See all partners"
+    },
+    "final": {
+      "title": "Let's chat, no obligation.",
+      "lead": "Tell us about your business. We'll help you figure out the most sensible next step.",
+      "secondary": "Use the contact form"
+    }
+  },
+  "labels": {
+    "problem": "The problem",
+    "does": "What we do",
+    "gets": "What you get",
+    "process": "The process"
+  },
+  "studio": {
+    "hero": {
+      "title": "Make your business look as good as it really is",
+      "lead": "Photo & video, social media, design, and branding & logos for villas, restaurants and local brands in Bali."
+    },
+    "indexLabel": "Studio services",
+    "services": [
+      {
+        "id": "foto-video",
+        "chip": "Photo & Video",
+        "title": "Photos and video that make guests want to come",
+        "problem": "Dark, tilted photos that miss the atmosphere leave guests unsure about booking.",
+        "does": [
+          "Property shoots with warm light and straight lines",
+          "Short-form video for Instagram and listings",
+          "A photo selection ordered to suit your listing"
+        ],
+        "gets": "Ready-to-use photos and video for your listing, website and social media."
+      },
+      {
+        "id": "sosial-media",
+        "chip": "Social Media",
+        "title": "Consistent social media, minus the headache",
+        "problem": "Rarely updated accounts, or a look that keeps changing, make a business seem inactive.",
+        "does": [
+          "A monthly content plan",
+          "Feed, carousel and story design",
+          "Captions in English and Indonesian"
+        ],
+        "gets": "A content calendar and ready-to-post material every month."
+      },
+      {
+        "id": "desain",
+        "chip": "Design",
+        "title": "Menus and promos that are easy to read",
+        "problem": "Rushed menus and promo material end up hard to read and off-brand.",
+        "does": [
+          "Print and digital menu design",
+          "Posters and promotional material",
+          "Templates you can reuse"
+        ],
+        "gets": "Print-ready files plus digital versions to share."
+      }
+    ],
+    "branding": {
+      "chip": "Branding & Logos",
+      "title": "Is your business look inconsistent?",
+      "lead": "A complete logo and visual identity for your business. Ideal if you're just starting out or rebranding, before you invest in content or a website.",
+      "does": [
+        "Primary logo and variations",
+        "Colour palette and typography",
+        "The applications you need: business cards, menus, signage, social media templates"
+      ],
+      "gets": "Ready-to-use files (print and digital) + a short brand guide.",
+      "process": [
+        "Talk",
+        "Concept",
+        "Revise",
+        "Deliver"
+      ],
+      "note": "The number of concepts, revisions and applications depends on the package. Packages tailored to your business.",
+      "cta": "Chat about branding"
+    },
+    "cta": "Chat about Studio",
+    "final": {
+      "title": "Ready to look your best?",
+      "lead": "Tell us about your business and we'll help you choose the right service."
+    }
+  },
+  "systems": {
+    "hero": {
+      "title": "A website that works for your business",
+      "lead": "From landing pages and business websites to booking sites, plus SEO and online operations. Your business becomes easier to find, contact and book."
+    },
+    "why": {
+      "title": "Social media and marketplaces matter. Your own website matters more.",
+      "items": [
+        {
+          "title": "Direct contact",
+          "desc": "Customers can reach or book you directly, with no middleman."
+        },
+        {
+          "title": "Your look, your way",
+          "desc": "Photos, story and details shown on your brand's terms, not a platform template."
+        },
+        {
+          "title": "Easier to find",
+          "desc": "A website helps your business show up more easily on Google and Google Maps."
+        },
+        {
+          "title": "More credibility",
+          "desc": "An official website makes your business look clear and trustworthy."
+        }
+      ]
+    },
+    "services": [
+      {
+        "id": "website",
+        "chip": "Website",
+        "title": "A website that's fast, clear and easy to act on",
+        "problem": "People who find you on Instagram or Google have nowhere official to see the full picture, get in touch or book.",
+        "does": [
+          "Design and build of a site that's fast on mobile",
+          "A clear way to contact or book: WhatsApp, a form, or a booking system",
+          "English and Indonesian versions when you need them"
+        ],
+        "gets": "A launch-ready website, on a domain registered to your business."
+      },
+      {
+        "id": "seo",
+        "chip": "SEO",
+        "title": "SEO basics so you're easier to find",
+        "problem": "Guests search on Google, but your business doesn't show up, or the details are incomplete.",
+        "does": [
+          "Clean titles, descriptions and page structure",
+          "Google Business Profile setup",
+          "Consistent details across every channel"
+        ],
+        "gets": "A business that's easier to find. We don't promise rankings; we fix the foundations."
+      }
+    ],
+    "proof": {
+      "title": "Casa Roca Canggu",
+      "desc": "A website for a guesthouse in Canggu, shown with the owner's permission.",
+      "link": "See it in our work"
+    },
+    "meta": "This website was built by JC Flow Systems, too.",
+    "cta": "Chat about a website",
+    "final": {
+      "title": "Time for a website of your own?",
+      "lead": "Tell us about your business. We'll help you pick the website or service that makes sense."
+    },
+    "ops": {
+      "title": "Online operations",
+      "lead": "The work we've been doing for our partners, now open to your business.",
+      "items": [
+        {
+          "id": "ota",
+          "title": "OTA management",
+          "line": "Your OTA listings, managed",
+          "desc": "We manage your listings and bookings across OTA platforms."
+        },
+        {
+          "id": "onboarding",
+          "title": "Property onboarding",
+          "line": "Online-ready from day one",
+          "desc": "We get a new or newly opened property or business ready to take guests and customers online."
+        },
+        {
+          "id": "google",
+          "title": "Google Business",
+          "line": "Easy to find on Google Maps",
+          "desc": "We set up and tidy your Google Business Profile."
+        },
+        {
+          "id": "ordering",
+          "title": "Online ordering",
+          "line": "Your online orders, handled",
+          "desc": "Sign-up and day-to-day management on delivery platforms like GoFood and GrabFood."
+        }
+      ],
+      "cta": "Chat about operations"
+    },
+    "types": {
+      "title": "The right website for your business",
+      "lead": "Not just for villas. We build websites for restaurants, shops, service businesses, foundations and other local brands.",
+      "items": [
+        {
+          "title": "Landing page",
+          "desc": "A single focused page for a promo, launch or ad campaign, with one clear call to action.",
+          "for": "Promos, launches, ads"
+        },
+        {
+          "title": "Business website",
+          "desc": "A complete business profile: services or menu, gallery, location, opening hours and contact.",
+          "for": "Restaurants, cafés, shops, services, foundations"
+        },
+        {
+          "title": "Booking website",
+          "desc": "Property pages with a direct booking path and an availability calendar.",
+          "for": "Villas, guesthouses, hotels"
+        },
+        {
+          "title": "Website redesign",
+          "desc": "An existing site made more functional, informative, up to date and modern.",
+          "for": "Your current website"
+        }
+      ]
+    }
+  },
+  "karya": {
+    "hero": {
+      "title": "Work that speaks for itself",
+      "lead": "Photos, video and websites for Bali businesses. Everything here is shown with the owner's permission."
+    },
+    "filterLabel": "Filter work",
+    "filters": {
+      "all": "All",
+      "villa": "Villas",
+      "interior": "Interiors",
+      "video": "Video",
+      "web": "Websites"
+    },
+    "count": "projects",
+    "empty": "Nothing in this category yet.",
+    "open": "Open",
+    "lightbox": {
+      "close": "Close",
+      "prev": "Previous",
+      "next": "Next",
+      "label": "Work preview"
+    },
+    "note": "Not a villa? Our services adapt to restaurants, cafés and other local businesses too.",
+    "final": {
+      "title": "Want results like these for your business?",
+      "lead": "Let's chat, no obligation."
+    }
+  },
+  "partner": {
+    "hero": {
+      "title": "Our partners",
+      "lead": "Bali businesses that have worked or are working with JC Flow Media. Shown with permission."
+    },
+    "services": {
+      "social": "Social Media Management",
+      "photo": "Photo & Video",
+      "propertyShoot": "Property Photoshoot",
+      "ota": "OTA Management",
+      "design": "Branding Design",
+      "gbp": "Google Business",
+      "onboarding": "Property Onboarding",
+      "restaurantOnboarding": "Restaurant Launch",
+      "website": "Website",
+      "booking": "Booking & Calendar",
+      "menu": "Menu & Packaging Design",
+      "ordering": "Online Ordering",
+      "redesign": "Website Redesign"
+    },
+    "seeWork": "See the work",
+    "visit": "Visit website",
+    "final": {
+      "title": "Want to work together?",
+      "lead": "Message us on WhatsApp. It starts with a relaxed chat."
+    }
+  },
+  "tentang": {
+    "hero": {
+      "title": "Creative and technical, under one roof",
+      "lead": "JC Flow Media is a creative and tech studio for Bali businesses, from villas and restaurants to local brands."
+    },
+    "who": {
+      "title": "We bring visuals and systems together",
+      "body": [
+        "Plenty of Bali businesses have beautiful spaces but don't look their best on Instagram and are hard to find on Google. We're here to close that gap.",
+        "Our Studio division makes your business look great through photo, video, content, design and branding. Our Systems division makes it easier to find and book through websites and SEO."
+      ]
+    },
+    "founder": {
+      "label": "Founder",
+      "role": "Founder, JC Flow Media",
+      "bio": "Our founder is hands-on in every project, from the first chat and the shoot to the day your website goes live. You always talk to the person doing the work."
+    },
+    "values": {
+      "title": "What we stand by",
+      "items": [
+        {
+          "title": "Honest",
+          "desc": "No ranking promises, no numbers we can't back up."
+        },
+        {
+          "title": "Clear",
+          "desc": "You know what's being done, when, and what you'll get."
+        },
+        {
+          "title": "Consistent",
+          "desc": "Your business looks the same across Instagram, listings and your website."
+        },
+        {
+          "title": "Close by",
+          "desc": "Chat with us in English or Indonesian, on WhatsApp or face to face."
+        }
+      ]
+    },
+    "area": {
+      "title": "South Bali, Sarbagita",
+      "lead": "We work with businesses in Denpasar, Badung, Gianyar and Tabanan.",
+      "expansion": "We're expanding across the rest of Bali."
+    },
+    "cta": "Get in touch",
+    "final": {
+      "title": "Let's get acquainted.",
+      "lead": "Tell us about your business. We'll listen first."
+    }
+  },
+  "audit": {
+    "hero": {
+      "title": "A free audit of your villa listing",
+      "lead": "We review 5 key areas of your listing and send you a one-page PDF you can act on straight away."
+    },
+    "facts": {
+      "quota": "Availability",
+      "quotaValue": "{n} audits per week",
+      "time": "Turnaround",
+      "result": "You get",
+      "resultValue": "A one-page PDF",
+      "cost": "Cost",
+      "costValue": "Free, no obligation"
+    },
+    "aspects": {
+      "title": "5 things we review",
+      "items": [
+        {
+          "title": "Photos",
+          "desc": "Order, light, and whether the photos capture how your property feels."
+        },
+        {
+          "title": "Title & description",
+          "desc": "Whether they're clear, appealing and easy for guests to understand."
+        },
+        {
+          "title": "Direct booking path",
+          "desc": "Whether guests have an easy way to book with you directly."
+        },
+        {
+          "title": "Reviews & responses",
+          "desc": "How your reviews come across and how you reply to them."
+        },
+        {
+          "title": "Consistent information",
+          "desc": "Whether your details match across listings, Instagram, Google and your website."
+        }
+      ]
+    },
+    "receive": {
+      "title": "One page, straight to the point",
+      "items": [
+        "Short notes on each of the five areas",
+        "Priority fixes you can make yourself",
+        "Delivered as a one-page PDF"
+      ]
+    },
+    "how": {
+      "title": "Three steps",
+      "steps": [
+        "Fill in the form with your listing link",
+        "We confirm timing on WhatsApp or by email",
+        "Receive your audit as a one-page PDF"
+      ]
+    },
+    "quotaNote": "To give every audit proper care, we take on {n} audits per week. If this week is full, you'll be first in line for the next.",
+    "formTitle": "Sign up for an audit",
+    "formLead": "It takes about a minute."
+  },
+  "kontak": {
+    "hero": {
+      "title": "Let's chat, no obligation",
+      "lead": "Pick whatever's easiest for you. We reply in English or Indonesian."
+    },
+    "channels": {
+      "label": "Reach us directly",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "The quickest way to chat.",
+      "email": "Email",
+      "instagram": "Instagram",
+      "area": "Where we work"
+    },
+    "formTitle": "Tell us what you need",
+    "formLead": "Fill in this form and we'll get back to you."
+  },
+  "forms": {
+    "name": "Name",
+    "business": "Business name",
+    "businessType": "Type of business",
+    "businessTypes": [
+      "Villa",
+      "Hotel / guesthouse",
+      "Restaurant / café",
+      "Property manager",
+      "Other local business"
+    ],
+    "selectPlaceholder": "Choose a business type",
+    "listing": "Listing / Instagram link",
+    "optional": "optional",
+    "needs": "What you need",
+    "needsHint": "For example: photos of a new villa, a booking website, a logo for a café.",
+    "contact": "WhatsApp or email",
+    "contactHint": "We'll reach you here.",
+    "property": "Property name",
+    "listingRequired": "Listing link",
+    "listingHint": "Airbnb, Booking.com or any other listing.",
+    "consent": "I agree to my details being used to contact me.",
+    "consentLink": "Read the Privacy Policy",
+    "required": "required",
+    "errRequired": "Please fill this in.",
+    "errUrl": "Enter a valid link starting with https://",
+    "errContact": "Enter a valid WhatsApp number or email.",
+    "errConsent": "Please tick the box to continue.",
+    "errSummary": "A few things need your attention. Check the highlighted fields.",
+    "submitContact": "Send message",
+    "submitAudit": "Get my free audit",
+    "sending": "Sending…",
+    "successTitle": "Thanks, we've got your message.",
+    "successBody": "We'll be in touch soon. In a hurry? Message us on WhatsApp.",
+    "successAuditTitle": "We've received your audit request.",
+    "successAuditBody": "We'll confirm the timing on WhatsApp or by email.",
+    "error": "Sorry, your message didn't go through. Please try again, or message us on WhatsApp.",
+    "sendAnother": "Send another message"
+  },
+  "privasi": {
+    "hero": {
+      "title": "Privacy Policy",
+      "lead": "A short explanation of the data this website collects and how we use it."
+    },
+    "updated": "Last updated: 11 November 2026",
+    "sections": [
+      {
+        "title": "What we collect",
+        "body": [
+          "When you use the contact form: your name, business name, business type, listing or Instagram link (if given), what you need, and your contact details (WhatsApp or email).",
+          "When you sign up for the Free Listing Audit: your name, property name, listing link, and contact details (WhatsApp or email).",
+          "Anonymous visit statistics, such as pages viewed and where visits come from. These statistics use no cookies and don't identify you personally."
+        ]
+      },
+      {
+        "title": "Why we use it",
+        "body": [
+          "Form data is used only to contact you, answer your questions, and carry out an audit you asked for.",
+          "Anonymous statistics help us understand which pages are useful and improve the site. We don't use the Meta Pixel or any advertising trackers."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "body": [
+          "This website stores a single functional cookie (NEXT_LOCALE) to remember your language choice. It isn't used for tracking."
+        ]
+      },
+      {
+        "title": "How long we keep it",
+        "body": [
+          "Form data is kept for as long as we need it to talk with you, and no longer than 12 months after our last contact, unless you become a client and the data is needed for the work or for legal obligations."
+        ]
+      },
+      {
+        "title": "Third parties",
+        "body": [
+          "We rely on third-party services to run this website: a form service (to deliver form submissions to our inbox), a cookie-free analytics service, and our hosting provider. We never sell your data or share it for advertising."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "body": [
+          "You can ask for a copy of your data, a correction, or its deletion at any time by emailing hello@jcflowmedia.com. We'll respond as soon as we can."
+        ]
+      },
+      {
+        "title": "Contact",
+        "body": [
+          "Questions about this policy can be sent to hello@jcflowmedia.com."
+        ]
+      }
+    ]
+  },
+  "notFound": {
+    "code": "404",
+    "titleId": "Halaman ini tidak ditemukan.",
+    "titleEn": "This page doesn't exist.",
+    "bodyId": "Mungkin tautannya sudah berubah. Kembali ke beranda atau langsung chat kami.",
+    "bodyEn": "The link may have changed. Head back home or chat with us directly.",
+    "homeId": "Ke beranda",
+    "homeEn": "Go home"
+  },
+  "footer": {
+    "tagline": "Create. Connect. Convert.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "area": "Where we work",
+    "areaValue": "South Bali: Denpasar, Badung, Gianyar, Tabanan",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "backTop": "Back to top",
+    "hashtag": "#CreateConnectConvert",
+    "explainer": "A creative + tech studio for Bali businesses."
+  },
+  "brand": {
+    "tagline": "Create. Connect. Convert.",
+    "explainer": "A creative + tech studio for Bali businesses"
+  }
+}

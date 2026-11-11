@@ -1,0 +1,680 @@
+{
+  "meta": {
+    "siteName": "JC Flow Media",
+    "home": {
+      "title": "JC Flow Media: studio kreatif + teknologi untuk bisnis di Bali",
+      "description": "Studio kreatif + teknologi untuk bisnis di Bali: foto & video, sosial media, branding, website (landing page, bisnis, booking), SEO, dan layanan operasional."
+    },
+    "studio": {
+      "title": "Studio: foto & video, sosial media, desain, branding",
+      "description": "JC Flow Studio membantu bisnis di Bali tampil menarik: foto & video properti, pengelolaan sosial media, desain, serta branding & logo."
+    },
+    "systems": {
+      "title": "Systems: website, SEO, dan operasional",
+      "description": "Landing page, website bisnis, website booking, redesain website, SEO, manajemen OTA, Google Bisnis, dan pesanan online untuk bisnis di Bali."
+    },
+    "karya": {
+      "title": "Karya: foto, video, dan website",
+      "description": "Galeri karya JC Flow Media untuk villa dan bisnis di Bali, ditampilkan dengan izin pemilik."
+    },
+    "partner": {
+      "title": "Partner kami",
+      "description": "Bisnis di Bali yang bekerja sama dengan JC Flow Media: villa, guest house, restoran, dan yayasan."
+    },
+    "tentang": {
+      "title": "Tentang kami",
+      "description": "Siapa JC Flow Media, cara kami bekerja, dan area layanan kami di Bali Selatan (Sarbagita)."
+    },
+    "audit": {
+      "title": "Audit Listing Gratis untuk villa",
+      "description": "Daftar audit listing gratis: kami periksa 5 hal penting di listing villa Anda dan mengirim hasilnya dalam PDF 1 halaman."
+    },
+    "kontak": {
+      "title": "Kontak",
+      "description": "Hubungi JC Flow Media lewat WhatsApp, email, Instagram, atau form. Ngobrol dulu, tanpa kewajiban."
+    },
+    "privasi": {
+      "title": "Kebijakan Privasi",
+      "description": "Data apa yang kami kumpulkan lewat website ini, untuk apa, berapa lama disimpan, dan cara meminta penghapusan."
+    },
+    "notFound": {
+      "title": "Halaman tidak ditemukan",
+      "description": "Halaman yang Anda cari tidak ada."
+    }
+  },
+  "nav": {
+    "home": "Beranda",
+    "studio": "Studio",
+    "systems": "Systems",
+    "karya": "Karya",
+    "partner": "Partner",
+    "tentang": "Tentang",
+    "audit": "Audit Gratis",
+    "kontak": "Kontak",
+    "privasi": "Kebijakan Privasi",
+    "menu": "Menu",
+    "close": "Tutup menu",
+    "skip": "Langsung ke konten",
+    "langLabel": "Bahasa",
+    "switchLabel": "Ganti ke bahasa Inggris",
+    "primary": "Navigasi utama",
+    "cta": "Chat WhatsApp",
+    "homeLabel": "JC Flow Media, ke beranda"
+  },
+  "wa": {
+    "float": "Chat WhatsApp",
+    "floatLabel": "Chat dengan JC Flow Media di WhatsApp",
+    "messages": {
+      "home": "Halo JC Flow, saya ingin ngobrol soal bisnis saya.",
+      "studio": "Halo JC Flow, saya tertarik dengan layanan Studio. (STUDIO)",
+      "branding": "Halo JC Flow, saya tertarik dengan layanan branding & logo. (BRANDING)",
+      "systems": "Halo JC Flow, saya tertarik membuat website untuk bisnis saya. (WEBSITE)",
+      "karya": "Halo JC Flow, saya sudah lihat karya Anda dan ingin ngobrol.",
+      "partner": "Halo JC Flow, saya ingin bekerja sama.",
+      "tentang": "Halo JC Flow, saya ingin kenal lebih jauh.",
+      "audit": "Halo JC Flow, saya ingin tanya soal Audit Listing Gratis.",
+      "kontak": "Halo JC Flow, saya ingin ngobrol soal bisnis saya.",
+      "privasi": "Halo JC Flow, saya punya pertanyaan soal data saya.",
+      "notFound": "Halo JC Flow, saya tersesat di website Anda.",
+      "operasional": "Halo JC Flow, saya tertarik dengan layanan operasional. (OPERASIONAL)"
+    }
+  },
+  "common": {
+    "illustration": "Ilustrasi",
+    "chatWa": "Chat WhatsApp",
+    "ctaGeneral": "Ngobrol dulu, tanpa kewajiban.",
+    "packages": "Paket disesuaikan dengan kebutuhan bisnis Anda.",
+    "seeAll": "Lihat semua karya",
+    "learnMore": "Selengkapnya",
+    "opensNewTab": "(membuka tab baru)",
+    "divider": "Visual yang menarik + sistem dan operasional yang memudahkan booking."
+  },
+  "home": {
+    "hero": {
+      "rotatePrefix": "dari",
+      "rotate": [
+        "villa",
+        "restoran",
+        "kafe",
+        "usaha lokal"
+      ],
+      "sub": "Dari konten dan branding sampai website dan pengelolaan online, kami bantu bisnis Anda tampil menarik dan lebih mudah dipesan.",
+      "ctaAudit": "Audit listing gratis",
+      "badge": "Foto, konten, website. Satu tim.",
+      "chipStudio": "Studio",
+      "chipSystems": "Systems",
+      "titleA": "Studio kreatif",
+      "titleB": "teknologi untuk bisnis di Bali"
+    },
+    "marquee": [
+      "Foto & Video",
+      "Sosial Media",
+      "Desain",
+      "Branding & Logo",
+      "Website",
+      "SEO",
+      "Google Bisnis"
+    ],
+    "divisions": {
+      "title": "Satu tim untuk tampilan dan sistem bisnis Anda",
+      "studio": {
+        "name": "JC Flow Studio",
+        "desc": "Foto & video, sosial media, desain, branding & logo.",
+        "items": [
+          "Foto & video properti",
+          "Pengelolaan sosial media",
+          "Desain menu & promosi",
+          "Branding & logo"
+        ],
+        "link": "Lihat layanan Studio",
+        "kicker": "Create"
+      },
+      "systems": {
+        "name": "JC Flow Systems",
+        "desc": "Website, SEO, dan layanan operasional.",
+        "items": [
+          "Landing page, website bisnis & booking",
+          "SEO & Google Bisnis",
+          "Manajemen OTA & onboarding properti",
+          "Pesanan online (GoFood, GrabFood)"
+        ],
+        "link": "Lihat layanan Systems",
+        "kicker": "Connect + Convert"
+      }
+    },
+    "works": {
+      "title": "Dikerjakan di Bali, untuk tamu dari mana saja",
+      "lead": "Karya yang tampil di sini sudah diizinkan pemiliknya."
+    },
+    "process": {
+      "title": "Empat langkah, tanpa ribet",
+      "lead": "Dari obrolan pertama sampai evaluasi, Anda selalu tahu langkah berikutnya.",
+      "steps": [
+        {
+          "title": "Ngobrol",
+          "desc": "Ceritakan bisnis dan tujuan Anda. Lewat WhatsApp atau ketemu langsung."
+        },
+        {
+          "title": "Rencana",
+          "desc": "Kami susun rencana dan paket yang sesuai kebutuhan, bukan paket seragam."
+        },
+        {
+          "title": "Kerjakan",
+          "desc": "Pemotretan, konten, desain, atau website dikerjakan sesuai jadwal yang disepakati."
+        },
+        {
+          "title": "Evaluasi",
+          "desc": "Kita tinjau hasilnya bersama, lalu putuskan langkah selanjutnya."
+        }
+      ],
+      "end": "Mulai dari langkah 1"
+    },
+    "audit": {
+      "title": "Listing villa Anda sudah bekerja maksimal?",
+      "lead": "Kami periksa 5 hal penting dan kirim hasilnya dalam PDF 1 halaman. Gratis, tanpa kewajiban.",
+      "cta": "Daftar audit gratis"
+    },
+    "partners": {
+      "label": "Bekerja sama dengan",
+      "link": "Lihat semua partner"
+    },
+    "final": {
+      "title": "Ngobrol dulu, tanpa kewajiban.",
+      "lead": "Ceritakan bisnis Anda. Kami bantu cari langkah yang paling masuk akal.",
+      "secondary": "Isi form kontak"
+    }
+  },
+  "labels": {
+    "problem": "Masalahnya",
+    "does": "Yang kami kerjakan",
+    "gets": "Yang Anda terima",
+    "process": "Prosesnya"
+  },
+  "studio": {
+    "hero": {
+      "title": "Bisnis Anda, tampil semenarik aslinya",
+      "lead": "Foto & video, sosial media, desain, serta branding & logo untuk villa, restoran, dan usaha lokal di Bali."
+    },
+    "indexLabel": "Layanan Studio",
+    "services": [
+      {
+        "id": "foto-video",
+        "chip": "Foto & Video",
+        "title": "Foto & video yang membuat tamu ingin datang",
+        "problem": "Foto gelap, miring, atau kurang menggambarkan suasana membuat calon tamu ragu memesan.",
+        "does": [
+          "Pemotretan properti dengan cahaya yang hangat dan garis yang lurus",
+          "Video pendek untuk Instagram dan listing",
+          "Pilihan foto yang disusun sesuai alur listing"
+        ],
+        "gets": "Foto dan video siap pakai untuk listing, website, dan sosial media."
+      },
+      {
+        "id": "sosial-media",
+        "chip": "Sosial Media",
+        "title": "Sosial media yang konsisten, tanpa Anda pusing",
+        "problem": "Akun jarang diperbarui atau tampilannya berubah-ubah, sehingga bisnis terlihat kurang aktif.",
+        "does": [
+          "Rencana konten bulanan",
+          "Desain feed, carousel, dan story",
+          "Penulisan caption dalam bahasa Indonesia dan Inggris"
+        ],
+        "gets": "Kalender konten dan materi siap unggah setiap bulan."
+      },
+      {
+        "id": "desain",
+        "chip": "Desain",
+        "title": "Desain menu dan promosi yang mudah dibaca",
+        "problem": "Menu dan materi promosi dibuat terburu-buru sehingga sulit dibaca dan tidak senada.",
+        "does": [
+          "Desain menu cetak dan digital",
+          "Poster dan materi promosi",
+          "Template yang bisa Anda pakai ulang"
+        ],
+        "gets": "File siap cetak dan file digital untuk dibagikan."
+      }
+    ],
+    "branding": {
+      "chip": "Branding & Logo",
+      "title": "Logo dan tampilan bisnis Anda belum konsisten?",
+      "lead": "Logo dan identitas visual lengkap untuk bisnis Anda. Cocok untuk bisnis baru atau yang ingin rebranding, sebelum membuat konten atau website.",
+      "does": [
+        "Logo utama dan variasinya",
+        "Palet warna dan tipografi",
+        "Aplikasi yang relevan: kartu nama, menu, papan nama, template media sosial"
+      ],
+      "gets": "File logo siap pakai (cetak dan digital) + panduan brand ringkas.",
+      "process": [
+        "Ngobrol",
+        "Riset & konsep",
+        "Revisi",
+        "File final"
+      ],
+      "note": "Jumlah konsep, revisi, dan aplikasi ditentukan per paket. Paket disesuaikan dengan kebutuhan bisnis Anda.",
+      "cta": "Chat soal branding"
+    },
+    "cta": "Chat soal Studio",
+    "final": {
+      "title": "Siap tampil lebih menarik?",
+      "lead": "Ceritakan bisnis Anda, kami bantu pilih layanan yang paling sesuai."
+    }
+  },
+  "systems": {
+    "hero": {
+      "title": "Website yang bekerja untuk bisnis Anda",
+      "lead": "Dari landing page dan website bisnis sampai website booking, plus SEO dan layanan operasional. Bisnis Anda lebih mudah ditemukan, dihubungi, dan dipesan."
+    },
+    "why": {
+      "title": "Media sosial dan marketplace itu penting. Website sendiri lebih penting.",
+      "items": [
+        {
+          "title": "Kontak langsung",
+          "desc": "Pelanggan bisa menghubungi atau memesan langsung ke Anda, tanpa perantara."
+        },
+        {
+          "title": "Tampilan Anda sendiri",
+          "desc": "Foto, cerita, dan informasi tampil sesuai brand Anda, bukan template platform."
+        },
+        {
+          "title": "Lebih mudah ditemukan",
+          "desc": "Website membantu bisnis Anda lebih mudah ditemukan di Google dan Google Maps."
+        },
+        {
+          "title": "Lebih dipercaya",
+          "desc": "Website resmi membuat bisnis terlihat jelas dan dapat dipercaya."
+        }
+      ]
+    },
+    "services": [
+      {
+        "id": "website",
+        "chip": "Website",
+        "title": "Website yang cepat, jelas, dan mudah dihubungi",
+        "problem": "Calon pelanggan yang menemukan Anda di Instagram atau Google tidak punya tempat resmi untuk melihat informasi lengkap, menghubungi, atau memesan.",
+        "does": [
+          "Desain dan pembuatan website yang cepat di HP",
+          "Jalur kontak atau pemesanan yang jelas: WhatsApp, form, atau sistem booking",
+          "Versi bahasa Indonesia dan Inggris bila diperlukan"
+        ],
+        "gets": "Website yang siap tayang, dengan domain atas nama bisnis Anda."
+      },
+      {
+        "id": "seo",
+        "chip": "SEO",
+        "title": "SEO dasar agar lebih mudah ditemukan",
+        "problem": "Calon tamu mencari di Google, tetapi bisnis Anda tidak muncul atau informasinya tidak lengkap.",
+        "does": [
+          "Judul, deskripsi, dan struktur halaman yang rapi",
+          "Pengaturan Google Business Profile",
+          "Konsistensi informasi di semua kanal"
+        ],
+        "gets": "Bisnis yang lebih mudah ditemukan. Kami tidak menjanjikan peringkat, kami membantu memperbaiki dasarnya."
+      }
+    ],
+    "proof": {
+      "title": "Casa Roca Canggu",
+      "desc": "Website untuk guest house di Canggu, ditampilkan dengan izin pemilik.",
+      "link": "Lihat di galeri karya"
+    },
+    "meta": "Website ini sendiri juga dibuat oleh JC Flow Systems.",
+    "cta": "Chat soal website",
+    "final": {
+      "title": "Waktunya punya website sendiri?",
+      "lead": "Ceritakan bisnis Anda. Kami bantu pilih website atau layanan yang paling masuk akal."
+    },
+    "ops": {
+      "title": "Layanan operasional",
+      "lead": "Pekerjaan yang selama ini kami kerjakan untuk partner, kini terbuka untuk bisnis Anda.",
+      "items": [
+        {
+          "id": "ota",
+          "title": "Manajemen OTA",
+          "line": "Listing Anda terkelola rapi di OTA",
+          "desc": "Kami mengelola listing dan pemesanan Anda di platform OTA."
+        },
+        {
+          "id": "onboarding",
+          "title": "Onboarding properti",
+          "line": "Siap online dari hari pertama",
+          "desc": "Kami menyiapkan properti atau usaha yang baru dibuka agar siap menerima tamu dan pelanggan secara online."
+        },
+        {
+          "id": "google",
+          "title": "Google Bisnis",
+          "line": "Mudah ditemukan di Google Maps",
+          "desc": "Kami membuat dan merapikan profil Google Bisnis Anda."
+        },
+        {
+          "id": "ordering",
+          "title": "Pengelolaan pesanan online",
+          "line": "Pesanan online Anda terkelola",
+          "desc": "Pendaftaran dan pengelolaan pemesanan di platform pesan-antar seperti GoFood dan GrabFood."
+        }
+      ],
+      "cta": "Chat soal operasional"
+    },
+    "types": {
+      "title": "Website sesuai kebutuhan bisnis Anda",
+      "lead": "Bukan hanya untuk villa. Kami membuat website untuk restoran, toko, jasa, yayasan, dan usaha lokal lainnya.",
+      "items": [
+        {
+          "title": "Landing page",
+          "desc": "Satu halaman yang fokus untuk promo, peluncuran, atau kampanye iklan, dengan satu ajakan yang jelas.",
+          "for": "Promo, produk baru, iklan"
+        },
+        {
+          "title": "Website bisnis",
+          "desc": "Profil usaha lengkap: layanan atau menu, galeri, lokasi, jam buka, dan kontak.",
+          "for": "Restoran, kafe, toko, jasa, yayasan"
+        },
+        {
+          "title": "Website booking",
+          "desc": "Halaman properti dengan jalur pemesanan langsung dan kalender ketersediaan.",
+          "for": "Villa, guest house, hotel"
+        },
+        {
+          "title": "Redesain website",
+          "desc": "Website lama dibuat lebih fungsional, informatif, aktual, dan modern.",
+          "for": "Website yang sudah ada"
+        }
+      ]
+    }
+  },
+  "karya": {
+    "hero": {
+      "title": "Karya yang berbicara sendiri",
+      "lead": "Foto, video, dan website untuk bisnis di Bali. Semua karya di sini sudah diizinkan pemiliknya."
+    },
+    "filterLabel": "Saring karya",
+    "filters": {
+      "all": "Semua",
+      "villa": "Villa",
+      "interior": "Interior",
+      "video": "Video",
+      "web": "Website"
+    },
+    "count": "karya",
+    "empty": "Belum ada karya di kategori ini.",
+    "open": "Buka",
+    "lightbox": {
+      "close": "Tutup",
+      "prev": "Sebelumnya",
+      "next": "Berikutnya",
+      "label": "Pratinjau karya"
+    },
+    "note": "Bisnis Anda bukan villa? Layanan kami bisa disesuaikan untuk restoran, kafe, dan usaha lokal lainnya.",
+    "final": {
+      "title": "Ingin hasil seperti ini untuk bisnis Anda?",
+      "lead": "Ngobrol dulu, tanpa kewajiban."
+    }
+  },
+  "partner": {
+    "hero": {
+      "title": "Partner kami",
+      "lead": "Bisnis di Bali yang pernah atau sedang bekerja sama dengan JC Flow Media. Ditampilkan dengan izin."
+    },
+    "services": {
+      "social": "Manajemen Sosial Media",
+      "photo": "Foto & Video",
+      "propertyShoot": "Photoshoot Properti",
+      "ota": "Manajemen OTA",
+      "design": "Desain Branding",
+      "gbp": "Google Bisnis",
+      "onboarding": "Onboarding Properti",
+      "restaurantOnboarding": "Onboarding Restoran",
+      "website": "Website",
+      "booking": "Booking & Kalender",
+      "menu": "Desain Menu & Kemasan",
+      "ordering": "Pesanan Online",
+      "redesign": "Redesain Website"
+    },
+    "seeWork": "Lihat karya",
+    "visit": "Kunjungi website",
+    "final": {
+      "title": "Ingin bekerja sama?",
+      "lead": "Chat WhatsApp, kita mulai dari obrolan santai."
+    }
+  },
+  "tentang": {
+    "hero": {
+      "title": "Kreatif dan teknis, di bawah satu atap",
+      "lead": "JC Flow Media adalah studio kreatif dan teknologi untuk bisnis di Bali, dari villa dan restoran sampai usaha lokal."
+    },
+    "who": {
+      "title": "Kami menggabungkan visual dan sistem",
+      "body": [
+        "Banyak bisnis di Bali punya tempat yang indah, tetapi tampil kurang menarik di Instagram dan sulit ditemukan di Google. Kami ada untuk menutup celah itu.",
+        "Divisi Studio membuat bisnis Anda tampil menarik lewat foto, video, konten, desain, dan branding. Divisi Systems membuat bisnis Anda lebih mudah ditemukan dan dipesan lewat website dan SEO."
+      ]
+    },
+    "founder": {
+      "label": "Pendiri",
+      "role": "Pendiri, JC Flow Media",
+      "bio": "Pendiri JC Flow Media terlibat langsung di setiap proyek, dari obrolan pertama dan pemotretan sampai website tayang. Anda selalu bicara dengan orang yang mengerjakan."
+    },
+    "values": {
+      "title": "Nilai yang kami pegang",
+      "items": [
+        {
+          "title": "Jujur",
+          "desc": "Tanpa janji peringkat atau angka yang tidak bisa dibuktikan."
+        },
+        {
+          "title": "Jelas",
+          "desc": "Anda tahu apa yang dikerjakan, kapan, dan apa yang Anda terima."
+        },
+        {
+          "title": "Konsisten",
+          "desc": "Tampilan bisnis Anda senada di Instagram, listing, dan website."
+        },
+        {
+          "title": "Dekat",
+          "desc": "Bisa ngobrol dalam bahasa Indonesia atau Inggris, lewat WhatsApp atau tatap muka."
+        }
+      ]
+    },
+    "area": {
+      "title": "Bali Selatan, Sarbagita",
+      "lead": "Kami melayani bisnis di Denpasar, Badung, Gianyar, dan Tabanan.",
+      "expansion": "Perluasan ke seluruh Bali sedang berjalan."
+    },
+    "cta": "Hubungi kami",
+    "final": {
+      "title": "Mari kenalan.",
+      "lead": "Ceritakan bisnis Anda. Kami dengarkan dulu."
+    }
+  },
+  "audit": {
+    "hero": {
+      "title": "Audit listing villa Anda, gratis",
+      "lead": "Kami periksa 5 hal penting di listing Anda dan mengirim hasilnya dalam PDF 1 halaman yang mudah ditindaklanjuti."
+    },
+    "facts": {
+      "quota": "Kuota",
+      "quotaValue": "{n} audit per minggu",
+      "time": "Estimasi waktu",
+      "result": "Hasil",
+      "resultValue": "PDF 1 halaman",
+      "cost": "Biaya",
+      "costValue": "Gratis, tanpa kewajiban"
+    },
+    "aspects": {
+      "title": "5 hal yang kami periksa",
+      "items": [
+        {
+          "title": "Foto",
+          "desc": "Urutan, cahaya, dan apakah foto menggambarkan suasana properti Anda."
+        },
+        {
+          "title": "Judul & deskripsi",
+          "desc": "Apakah judul dan deskripsi jelas, menarik, dan mudah dipahami tamu."
+        },
+        {
+          "title": "Jalur booking langsung",
+          "desc": "Apakah tamu punya cara mudah untuk memesan langsung ke Anda."
+        },
+        {
+          "title": "Ulasan & respons",
+          "desc": "Bagaimana ulasan ditampilkan dan bagaimana Anda menanggapinya."
+        },
+        {
+          "title": "Konsistensi informasi",
+          "desc": "Apakah informasi sama di listing, Instagram, Google, dan website."
+        }
+      ]
+    },
+    "receive": {
+      "title": "Satu halaman, langsung ke inti",
+      "items": [
+        "Catatan singkat untuk setiap aspek",
+        "Prioritas perbaikan yang bisa Anda kerjakan sendiri",
+        "Dikirim dalam format PDF 1 halaman"
+      ]
+    },
+    "how": {
+      "title": "Tiga langkah",
+      "steps": [
+        "Isi form dengan link listing Anda",
+        "Kami konfirmasi jadwal lewat WhatsApp atau email",
+        "Terima hasil audit dalam PDF 1 halaman"
+      ]
+    },
+    "quotaNote": "Agar setiap audit dikerjakan dengan teliti, kami membatasi {n} audit per minggu. Bila kuota penuh, pendaftaran Anda masuk antrean minggu berikutnya.",
+    "formTitle": "Daftar audit",
+    "formLead": "Hanya butuh satu menit."
+  },
+  "kontak": {
+    "hero": {
+      "title": "Ngobrol dulu, tanpa kewajiban",
+      "lead": "Pilih cara yang paling nyaman untuk Anda. Kami membalas dalam bahasa Indonesia atau Inggris."
+    },
+    "channels": {
+      "label": "Kontak langsung",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "Cara tercepat untuk ngobrol.",
+      "email": "Email",
+      "instagram": "Instagram",
+      "area": "Area layanan"
+    },
+    "formTitle": "Kirim kebutuhan Anda",
+    "formLead": "Isi form ini dan kami akan menghubungi Anda."
+  },
+  "forms": {
+    "name": "Nama",
+    "business": "Nama bisnis",
+    "businessType": "Jenis bisnis",
+    "businessTypes": [
+      "Villa",
+      "Hotel / guesthouse",
+      "Restoran / kafe",
+      "Pengelola properti",
+      "Usaha lokal lainnya"
+    ],
+    "selectPlaceholder": "Pilih jenis bisnis",
+    "listing": "Link listing / Instagram",
+    "optional": "opsional",
+    "needs": "Kebutuhan",
+    "needsHint": "Contoh: foto villa baru, website booking, logo untuk kafe.",
+    "contact": "WhatsApp atau email",
+    "contactHint": "Kami akan menghubungi Anda lewat kontak ini.",
+    "property": "Nama properti",
+    "listingRequired": "Link listing",
+    "listingHint": "Airbnb, Booking.com, atau listing lainnya.",
+    "consent": "Saya setuju data saya dipakai untuk menghubungi saya.",
+    "consentLink": "Baca Kebijakan Privasi",
+    "required": "wajib",
+    "errRequired": "Bagian ini wajib diisi.",
+    "errUrl": "Masukkan link yang valid, diawali https://",
+    "errContact": "Masukkan nomor WhatsApp atau email yang valid.",
+    "errConsent": "Centang persetujuan untuk melanjutkan.",
+    "errSummary": "Ada yang perlu dilengkapi. Periksa bagian yang ditandai.",
+    "submitContact": "Kirim pesan",
+    "submitAudit": "Daftar audit gratis",
+    "sending": "Mengirim…",
+    "successTitle": "Terima kasih, pesan Anda sudah kami terima.",
+    "successBody": "Kami akan menghubungi Anda secepatnya. Ingin lebih cepat? Chat kami di WhatsApp.",
+    "successAuditTitle": "Pendaftaran audit Anda sudah kami terima.",
+    "successAuditBody": "Kami akan mengonfirmasi jadwal lewat WhatsApp atau email.",
+    "error": "Maaf, pesan belum terkirim. Coba lagi, atau chat kami langsung di WhatsApp.",
+    "sendAnother": "Kirim pesan lain"
+  },
+  "privasi": {
+    "hero": {
+      "title": "Kebijakan Privasi",
+      "lead": "Penjelasan singkat tentang data yang kami kumpulkan lewat website ini dan bagaimana kami memakainya."
+    },
+    "updated": "Terakhir diperbarui: 11 November 2026",
+    "sections": [
+      {
+        "title": "Data yang kami kumpulkan",
+        "body": [
+          "Saat Anda mengisi form kontak: nama, nama bisnis, jenis bisnis, link listing atau Instagram (bila diisi), kebutuhan Anda, dan kontak (WhatsApp atau email).",
+          "Saat Anda mengisi form Audit Listing Gratis: nama, nama properti, link listing, dan kontak (WhatsApp atau email).",
+          "Statistik kunjungan anonim, seperti halaman yang dibuka dan sumber kunjungan. Statistik ini tidak memakai cookie dan tidak mengenali Anda secara pribadi."
+        ]
+      },
+      {
+        "title": "Tujuan penggunaan",
+        "body": [
+          "Data form hanya dipakai untuk menghubungi Anda, menjawab pertanyaan, dan mengerjakan audit yang Anda minta.",
+          "Statistik anonim dipakai untuk memahami halaman mana yang berguna dan memperbaiki website. Kami tidak memasang Meta Pixel atau iklan pelacak."
+        ]
+      },
+      {
+        "title": "Cookie",
+        "body": [
+          "Website ini hanya menyimpan satu cookie fungsional (NEXT_LOCALE) untuk mengingat pilihan bahasa Anda. Cookie ini tidak dipakai untuk pelacakan."
+        ]
+      },
+      {
+        "title": "Lama penyimpanan",
+        "body": [
+          "Data form disimpan selama diperlukan untuk berkomunikasi dengan Anda dan paling lama 12 bulan setelah kontak terakhir, kecuali Anda menjadi klien dan data diperlukan untuk pekerjaan atau kewajiban hukum."
+        ]
+      },
+      {
+        "title": "Pihak ketiga",
+        "body": [
+          "Kami memakai layanan pihak ketiga untuk menjalankan website: layanan form (untuk mengirim isian form ke email kami), layanan analitik tanpa cookie, dan penyedia hosting. Data tidak kami jual atau bagikan untuk iklan."
+        ]
+      },
+      {
+        "title": "Hak Anda",
+        "body": [
+          "Anda dapat meminta salinan, perbaikan, atau penghapusan data Anda kapan saja dengan mengirim email ke hello@jcflowmedia.com. Kami akan menanggapi secepatnya."
+        ]
+      },
+      {
+        "title": "Kontak",
+        "body": [
+          "Pertanyaan tentang kebijakan ini dapat dikirim ke hello@jcflowmedia.com."
+        ]
+      }
+    ]
+  },
+  "notFound": {
+    "code": "404",
+    "titleId": "Halaman ini tidak ditemukan.",
+    "titleEn": "This page doesn't exist.",
+    "bodyId": "Mungkin tautannya sudah berubah. Kembali ke beranda atau langsung chat kami.",
+    "bodyEn": "The link may have changed. Head back home or chat with us directly.",
+    "homeId": "Ke beranda",
+    "homeEn": "Go home"
+  },
+  "footer": {
+    "tagline": "Create. Connect. Convert.",
+    "explore": "Jelajahi",
+    "contact": "Kontak",
+    "area": "Area layanan",
+    "areaValue": "Bali Selatan: Denpasar, Badung, Gianyar, Tabanan",
+    "rights": "Hak cipta dilindungi.",
+    "privacy": "Kebijakan Privasi",
+    "backTop": "Kembali ke atas",
+    "hashtag": "#CreateConnectConvert",
+    "explainer": "Studio kreatif + teknologi untuk bisnis di Bali."
+  },
+  "brand": {
+    "tagline": "Create. Connect. Convert.",
+    "explainer": "Studio kreatif + teknologi untuk bisnis di Bali"
+  }
+}

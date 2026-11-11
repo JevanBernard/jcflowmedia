@@ -1,0 +1,111 @@
+{
+  "_catatan": "Satu entri per partner, urutan file = urutan tampil. Partner hanya tampil bila consent=true (izin tertulis nama & logo). Logo: taruh file SVG/PNG transparan di /public/partners/ lalu isi 'logo' (mis. \"/partners/villa-tara.png\"); selama null, nama bisnis tampil sebagai teks. Kunci 'services' dijelaskan di content/messages/*.json → partner.services. 'testimonial' opsional: kutipan asli, tidak disunting.",
+  "items": [
+    {
+      "id": "villa-tara-canggu",
+      "consent": true,
+      "name": "Villa Tara Canggu",
+      "type": {
+        "id": "Villa",
+        "en": "Villa"
+      },
+      "location": "Canggu",
+      "logo": null,
+      "services": [
+        "social",
+        "photo",
+        "propertyShoot",
+        "ota",
+        "design",
+        "gbp"
+      ],
+      "workId": "villa-tara-exterior",
+      "website": null,
+      "testimonial": null
+    },
+    {
+      "id": "villa-elite-canggu",
+      "consent": true,
+      "name": "Villa Elite Canggu",
+      "type": {
+        "id": "Villa",
+        "en": "Villa"
+      },
+      "location": "Canggu",
+      "logo": null,
+      "services": [
+        "social",
+        "photo",
+        "propertyShoot",
+        "design",
+        "gbp"
+      ],
+      "workId": null,
+      "website": null,
+      "testimonial": null
+    },
+    {
+      "id": "casa-roca-canggu",
+      "consent": true,
+      "name": "Casa Roca Canggu",
+      "type": {
+        "id": "Guest house",
+        "en": "Guesthouse"
+      },
+      "location": "Canggu",
+      "logo": null,
+      "services": [
+        "onboarding",
+        "ota",
+        "propertyShoot",
+        "website",
+        "booking",
+        "design",
+        "gbp"
+      ],
+      "workId": "casa-roca-website",
+      "website": null,
+      "testimonial": null
+    },
+    {
+      "id": "musubi-onigiri",
+      "consent": true,
+      "name": "Musubi Japanese Traditional Onigiri",
+      "type": {
+        "id": "Restoran",
+        "en": "Restaurant"
+      },
+      "location": null,
+      "logo": null,
+      "services": [
+        "restaurantOnboarding",
+        "photo",
+        "social",
+        "menu",
+        "design",
+        "gbp",
+        "ordering"
+      ],
+      "workId": null,
+      "website": null,
+      "testimonial": null
+    },
+    {
+      "id": "yayasan-lengis-hijau",
+      "consent": true,
+      "name": "Yayasan Lengis Hijau",
+      "type": {
+        "id": "Yayasan",
+        "en": "Foundation"
+      },
+      "location": null,
+      "logo": null,
+      "services": [
+        "redesign"
+      ],
+      "workId": null,
+      "website": null,
+      "testimonial": null
+    }
+  ]
+}

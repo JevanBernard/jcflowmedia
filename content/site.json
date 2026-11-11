@@ -1,0 +1,28 @@
+{
+  "_catatan": "Data usaha. Nilai bertanda TODO wajib diganti dengan data asli (sesuai NIB) sebelum tayang.",
+  "name": "JC Flow Media",
+  "legalName": "JC Flow Media",
+  "legalName_TODO": "Ganti dengan nama PT Perorangan sesuai NIB",
+  "url": "https://jcflowmedia.com",
+  "email": "hello@jcflowmedia.com",
+  "whatsapp": "6280000000000",
+  "whatsapp_TODO": "Ganti dengan nomor WhatsApp bisnis, format internasional tanpa + (contoh 6281xxxxxxxx)",
+  "instagram": "jcflowmedia",
+  "instagram_TODO": "Pastikan handle Instagram benar",
+  "areaServed": [
+    "Denpasar",
+    "Badung",
+    "Gianyar",
+    "Tabanan"
+  ],
+  "auditQuotaPerWeek": 2,
+  "auditTurnaround": {
+    "id": "5 hari kerja",
+    "en": "5 working days"
+  },
+  "founder": {
+    "name": "",
+    "name_TODO": "Isi nama pendiri; bila kosong, nama tidak ditampilkan",
+    "photo": ""
+  }
+}
