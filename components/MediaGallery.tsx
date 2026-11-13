@@ -5,7 +5,7 @@ import { Icon } from "./Icon";
 import { WorkMedia } from "./WorkMedia";
 import { track } from "@/lib/analytics";
 import type { Locale, Messages } from "@/lib/i18n";
-import type { MediaItem } from "@/lib/site";
+import { asset, type MediaItem } from "@/lib/site";
 
 /** Galeri foto/video satu proyek dengan lightbox (panah kiri/kanan, Esc, fokus kembali ke pemicu). */
 export function MediaGallery({
@@ -104,7 +104,7 @@ export function MediaGallery({
             <div className="relative flex min-h-0 flex-1 items-center justify-center px-4 pb-6 sm:px-20">
               <div className="relative aspect-[4/5] h-full max-h-[78vh] max-w-full overflow-hidden rounded-[var(--radius-card)] bg-charcoal-2">
                 {current.video ? (
-                  <video src={current.video} controls playsInline className="h-full w-full object-cover" aria-label={current.alt[locale]} />
+                  <video src={asset(current.video)} controls playsInline className="h-full w-full object-cover" aria-label={current.alt[locale]} />
                 ) : (
                   <WorkMedia work={current} locale={locale} label={illustration} sizes="90vw" />
                 )}

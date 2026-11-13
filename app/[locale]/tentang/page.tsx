@@ -7,7 +7,7 @@ import { Logo } from "@/components/Logo";
 import { href } from "@/lib/i18n";
 import { localeOf, resolve, type PageProps } from "@/lib/page";
 import { pageMetadata } from "@/lib/seo";
-import { site } from "@/lib/site";
+import { asset, site } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   return pageMetadata(await localeOf(params), "tentang");
@@ -74,7 +74,7 @@ export default async function TentangPage({ params }: PageProps) {
         <div className="grid items-center gap-8 overflow-hidden rounded-[32px] bg-white p-6 sm:p-10 lg:grid-cols-12" data-reveal>
           <div className="relative aspect-square w-full max-w-[320px] overflow-hidden rounded-[var(--radius-card)] bg-cream-2 lg:col-span-4">
             {site.founder.photo ? (
-              <img src={site.founder.photo} alt={site.founder.name || a.founder.role} className="h-full w-full object-cover" loading="lazy" />
+              <img src={asset(site.founder.photo)} alt={site.founder.name || a.founder.role} className="h-full w-full object-cover" loading="lazy" />
             ) : (
               <div className="grid h-full w-full place-items-center" style={{ background: "var(--grad)" }}>
                 <Logo variant="full" tone="white" width={150} />

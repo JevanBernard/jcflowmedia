@@ -1,8 +1,14 @@
 import { notFound } from "next/navigation";
+import { locales } from "@/lib/i18n";
 
 export const metadata = { title: "404", robots: { index: false } };
+export const dynamicParams = false;
 
-/** Semua URL yang tidak dikenal diarahkan ke halaman 404 bilingual. */
+/** Static export: hanya /404 yang dibuat; scripts/finalize-export.mjs menjadikannya 404.html (bilingual). */
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale, rest: ["404"] }));
+}
+
 export default function CatchAll() {
   notFound();
 }

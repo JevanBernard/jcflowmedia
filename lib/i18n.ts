@@ -37,15 +37,20 @@ export function href(locale: Locale, path: string): string {
   return path === "/" ? "/en" : `/en${path}`;
 }
 
+/** Buang prefiks bahasa. "/id" muncul saat prerender (halaman ID di-rewrite ke /id), jadi ikut dibuang. */
+function barePath(pathname: string): string {
+  return pathname.replace(/^\/(en|id)(?=\/|$)/, "") || "/";
+}
+
 /** Ubah path di browser menjadi path padanan bahasa lain (F4). */
 export function switchPath(pathname: string, to: Locale): string {
-  const bare = pathname === "/en" ? "/" : pathname.replace(/^\/en(?=\/)/, "");
+  const bare = barePath(pathname);
   return href(to, bare || "/");
 }
 
 /** Kunci halaman dari pathname browser (untuk pesan WA & analitik). */
 export function pageKeyFromPath(pathname: string): PageKey | "notFound" {
-  const bare = pathname === "/en" ? "/" : pathname.replace(/^\/en(?=\/)/, "");
+  const bare = barePath(pathname);
   const found = (Object.entries(pagePaths) as [PageKey, string][]).find(([, p]) => p === bare);
   if (found) return found[0];
   // Halaman detail proyek (/karya/slug) dihitung sebagai Karya

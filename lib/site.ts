@@ -72,3 +72,6 @@ export const allProjects: Project[] = (projects.items as unknown as Project[])
   .map((pr) => ({ ...pr, logo: pr.logo ?? consentedPartners.find((pa) => pa.id === pr.partnerId)?.logo ?? null }));
 
 export const getProject = (slug: string) => allProjects.find((pr) => pr.slug === slug);
+
+/** Path file di /public dengan basePath (untuk <img>/<video> biasa; next/image memakai loader). */
+export const asset = (src: string) => `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${src}`;
