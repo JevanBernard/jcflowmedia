@@ -11,7 +11,9 @@ import { href } from "@/lib/i18n";
 import { localeOf, resolve, type PageProps } from "@/lib/page";
 import { pageMetadata } from "@/lib/seo";
 import { PartnerStrip } from "@/components/PartnerStrip";
-import { PARTNERS_ENABLED, allWorks, consentedPartners } from "@/lib/site";
+import { ProjectCard } from "@/components/ProjectCard";
+import { toCard } from "@/lib/projects";
+import { PARTNERS_ENABLED, allProjects, consentedPartners } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   return pageMetadata(await localeOf(params), "home");
@@ -23,12 +25,10 @@ const systemsIcons: IconName[] = ["web", "seo", "calendar", "bag"];
 export default async function Home({ params }: PageProps) {
   const { locale, t } = await resolve(params);
   const h = t.home;
-  const heroWork = allWorks.find((w) => w.category === "villa") ?? allWorks[0];
-  const preview = [
-    allWorks.find((w) => w.id === "villa-tara-exterior"),
-    allWorks.find((w) => w.id === "casa-roca-website"),
-    allWorks.find((w) => w.id === "villa-tara-bedroom"),
-  ].filter(Boolean) as typeof allWorks;
+  // Visual hero: media pertama proyek yang punya media (ilustrasi berlabel sampai foto asli tersedia)
+  const heroProject = allProjects.find((p) => p.media.length > 0);
+  const heroWork = heroProject?.media[0];
+  const preview = allProjects.slice(0, 3);
 
   return (
     <>
@@ -70,14 +70,14 @@ export default async function Home({ params }: PageProps) {
           {/* Komposisi visual */}
           <div className="relative mx-auto w-full max-w-[480px] lg:col-span-5 lg:max-w-none">
             <div className="fade-up relative aspect-[4/5] overflow-hidden rounded-[32px] bg-cream-2" style={{ ["--i" as string]: 1 }}>
-              <WorkMedia work={heroWork} locale={locale} label={t.common.illustration} priority sizes="(min-width:1024px) 40vw, 90vw" />
+              {heroWork && <WorkMedia work={heroWork} locale={locale} label={t.common.illustration} priority sizes="(min-width:1024px) 40vw, 90vw" />}
               <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between gap-3">
                 {/* PRD: di atas foto, logo diletakkan di badge putih membulat */}
                 <span className="logo-badge !p-[7px]">
                   <Logo variant="mark" tone="color" width={44} />
                 </span>
                 <span className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-semibold text-charcoal backdrop-blur">
-                  {heroWork.client} · {heroWork.location}
+                  {heroProject?.name} · {heroProject?.location}
                 </span>
               </div>
             </div>
@@ -201,29 +201,10 @@ export default async function Home({ params }: PageProps) {
               {t.common.seeAll} <Icon name="arrow" className="arrow" />
             </Link>
           </div>
-          <ul className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-12 lg:grid-rows-2">
-            {preview.map((w, i) => (
-              <li
-                key={w.id}
-                data-reveal
-                style={{ ["--d" as string]: i }}
-                className={i === 0 ? "sm:col-span-2 lg:col-span-6 lg:row-span-2" : "lg:col-span-6"}
-              >
-                <Link href={`${href(locale, "/karya")}#${w.id}`} className="work-tile scrim group block h-full">
-                  <div className={`relative ${i === 0 ? "aspect-[4/5] lg:aspect-auto lg:h-full lg:min-h-[640px]" : "aspect-[16/10] lg:aspect-auto lg:h-full lg:min-h-[312px]"}`}>
-                    <WorkMedia work={w} locale={locale} label={t.common.illustration} />
-                  </div>
-                  <div className="absolute inset-x-0 bottom-0 z-10 flex items-end justify-between gap-4 p-5 text-cream sm:p-6">
-                    <div>
-                      <p className="t-label text-cream/80">{t.karya.filters[w.category]}</p>
-                      <p className="mt-1 text-lg font-semibold">{w.client}</p>
-                      <p className="text-sm text-cream/85">{w.title[locale]}</p>
-                    </div>
-                    <span className="grid size-11 flex-none place-items-center rounded-full bg-white text-charcoal transition-transform duration-500 group-hover:rotate-45">
-                      <Icon name="arrowUpRight" width={20} height={20} />
-                    </span>
-                  </div>
-                </Link>
+          <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {preview.map((p, i) => (
+              <li key={p.slug} data-reveal style={{ ["--d" as string]: i }}>
+                <ProjectCard p={toCard(p, locale, t)} cta={t.karya.viewProject} sizes="(min-width:1024px) 420px, (min-width:640px) 50vw, 100vw" />
               </li>
             ))}
           </ul>

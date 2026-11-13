@@ -1,0 +1,244 @@
+{
+  "_catatan": "Satu entri per proyek/klien, urutan file = urutan tampil. 'slug' dipakai di URL /karya/slug. 'partnerId' menghubungkan ke content/partners.json (proyek hanya tampil bila partner consent=true; kosongkan untuk karya JC Flow Media sendiri). 'categories' memakai kunci: photography, content, branding, design, website, social, operations. 'scope' = satu kalimat per kategori tentang apa yang dikerjakan. 'cover' = foto sampul (mis. \"/works/nama.webp\"); selama null, logo klien tampil sebagai sampul. 'media' = foto/video di halaman detail: isi 'image' (dan 'video' bila ada); entri dengan image null tampil sebagai ilustrasi berlabel 'Ilustrasi'. Teks ringkasan dan 'about' adalah DRAF dari daftar layanan di PRD, mohon ditinjau pemilik. Tanpa angka hasil kecuali partner menyetujui dan datanya bisa dibuktikan.",
+  "items": [
+    {
+      "slug": "villa-tara-canggu",
+      "partnerId": "villa-tara-canggu",
+      "name": "Villa Tara Canggu",
+      "type": { "id": "Villa", "en": "Villa" },
+      "location": "Canggu",
+      "logo": null,
+      "cover": null,
+      "website": null,
+      "categories": ["photography", "content", "social", "design", "operations"],
+      "services": ["social", "photo", "propertyShoot", "ota", "design", "gbp"],
+      "summary": {
+        "id": "Villa di Canggu yang kami dampingi dari foto dan video, sosial media, desain, sampai listing OTA dan Google Bisnis.",
+        "en": "A villa in Canggu we support across photo and video, social media, design, OTA listings and Google Business."
+      },
+      "about": {
+        "id": [
+          "Villa Tara Canggu adalah villa di Canggu. Kami mengerjakan sisi visual dan kehadiran onlinenya secara menyeluruh, dari pemotretan properti sampai pengelolaan sosial media dan listing.",
+          "Satu tim menangani foto, video, desain materi promosi, dan pengelolaan online, supaya tampilan villa tetap senada di setiap kanal."
+        ],
+        "en": [
+          "Villa Tara Canggu is a villa in Canggu. We handle its visuals and online presence end to end, from the property shoot to social media and listing management.",
+          "One team looks after the photos, video, promotional design and online management, so the villa looks consistent on every channel."
+        ]
+      },
+      "scope": {
+        "photography": { "id": "Photoshoot properti villa.", "en": "Villa property photoshoot." },
+        "content": { "id": "Pembuatan video properti.", "en": "Property video production." },
+        "social": { "id": "Pengelolaan sosial media villa.", "en": "Social media management for the villa." },
+        "design": { "id": "Desain branding: flyer, materi promosi, dan lainnya.", "en": "Branding design: flyers, promotional material and more." },
+        "operations": { "id": "Manajemen OTA dan profil Google Bisnis.", "en": "OTA management and the Google Business profile." }
+      },
+      "media": [
+        {
+          "id": "villa-tara-exterior",
+          "illustration": "villa",
+          "image": null,
+          "title": { "id": "Eksterior dan kolam renang", "en": "Exterior and pool" },
+          "alt": { "id": "Kolam renang dan fasad Villa Tara Canggu di sore hari", "en": "Pool and facade of Villa Tara Canggu in the afternoon" }
+        },
+        {
+          "id": "villa-tara-bedroom",
+          "illustration": "interior",
+          "image": null,
+          "title": { "id": "Kamar tidur utama", "en": "Master bedroom" },
+          "alt": { "id": "Kamar tidur utama Villa Tara Canggu dengan cahaya alami", "en": "Master bedroom at Villa Tara Canggu in natural light" }
+        },
+        {
+          "id": "villa-tara-reel",
+          "illustration": "video",
+          "image": null,
+          "video": null,
+          "title": { "id": "Video tur properti", "en": "Property tour video" },
+          "alt": { "id": "Cuplikan video tur Villa Tara Canggu", "en": "Still from the Villa Tara Canggu tour video" }
+        }
+      ]
+    },
+    {
+      "slug": "villa-elite-canggu",
+      "partnerId": "villa-elite-canggu",
+      "name": "Villa Elite Canggu",
+      "type": { "id": "Villa", "en": "Villa" },
+      "location": "Canggu",
+      "logo": null,
+      "cover": null,
+      "website": null,
+      "categories": ["photography", "content", "social", "design", "operations"],
+      "services": ["social", "photo", "propertyShoot", "design", "gbp"],
+      "summary": {
+        "id": "Villa di Canggu yang kami kerjakan dari photoshoot properti, foto dan video, sosial media, desain promosi, sampai Google Bisnis.",
+        "en": "A villa in Canggu we work with on its property shoot, photo and video, social media, promotional design and Google Business."
+      },
+      "about": {
+        "id": [
+          "Villa Elite Canggu adalah villa di Canggu. Kami memotret propertinya, membuat foto dan video, dan mengelola sosial media villa.",
+          "Kami juga mendesain materi promosi seperti flyer dan merapikan profil Google Bisnis, supaya informasi villa jelas bagi calon tamu."
+        ],
+        "en": [
+          "Villa Elite Canggu is a villa in Canggu. We shoot the property, produce photo and video, and manage the villa's social media.",
+          "We also design promotional material such as flyers and tidy up the Google Business profile, so the villa's details are clear to prospective guests."
+        ]
+      },
+      "scope": {
+        "photography": { "id": "Photoshoot properti villa.", "en": "Villa property photoshoot." },
+        "content": { "id": "Foto dan video untuk konten villa.", "en": "Photo and video for the villa's content." },
+        "social": { "id": "Pengelolaan sosial media villa.", "en": "Social media management for the villa." },
+        "design": { "id": "Desain branding: flyer, materi promosi, dan lainnya.", "en": "Branding design: flyers, promotional material and more." },
+        "operations": { "id": "Profil Google Bisnis.", "en": "The Google Business profile." }
+      },
+      "media": []
+    },
+    {
+      "slug": "casa-roca-canggu",
+      "partnerId": "casa-roca-canggu",
+      "name": "Casa Roca Canggu",
+      "type": { "id": "Guest house", "en": "Guesthouse" },
+      "location": "Canggu",
+      "logo": null,
+      "cover": null,
+      "website": null,
+      "categories": ["photography", "design", "website", "operations"],
+      "services": ["onboarding", "ota", "propertyShoot", "website", "booking", "design", "gbp"],
+      "summary": {
+        "id": "Guest house di Canggu yang kami siapkan dari onboarding properti dan photoshoot sampai website dengan booking web dan kalender ketersediaan.",
+        "en": "A guesthouse in Canggu we prepared from property onboarding and photoshoot to a website with web booking and an availability calendar."
+      },
+      "about": {
+        "id": [
+          "Casa Roca Canggu adalah guest house di Canggu. Kami menyiapkan propertinya agar siap menerima tamu secara online, mulai dari onboarding properti, manajemen OTA, dan profil Google Bisnis.",
+          "Kami juga membuat website properti dengan booking web dan kalender ketersediaan untuk staf, serta materi desain seperti flyer dan promosi. Website ini ditampilkan sebagai karya Systems dengan izin pemilik."
+        ],
+        "en": [
+          "Casa Roca Canggu is a guesthouse in Canggu. We got the property ready to take guests online, from property onboarding and OTA management to the Google Business profile.",
+          "We also built the property website with web booking and an availability calendar for staff, plus design material such as flyers and promotions. The website is shown as Systems work with the owner's permission."
+        ]
+      },
+      "scope": {
+        "photography": { "id": "Photoshoot properti guest house.", "en": "Guesthouse property photoshoot." },
+        "design": { "id": "Desain branding: flyer, materi promosi, dan lainnya.", "en": "Branding design: flyers, promotional material and more." },
+        "website": { "id": "Website properti dengan booking web dan kalender ketersediaan untuk staf.", "en": "Property website with web booking and an availability calendar for staff." },
+        "operations": { "id": "Onboarding properti, manajemen OTA, dan Google Bisnis.", "en": "Property onboarding, OTA management and Google Business." }
+      },
+      "media": [
+        {
+          "id": "casa-roca-website",
+          "illustration": "web",
+          "image": null,
+          "title": { "id": "Website booking langsung", "en": "Direct booking website" },
+          "alt": { "id": "Tangkapan layar website Casa Roca Canggu", "en": "Screenshot of the Casa Roca Canggu website" }
+        },
+        {
+          "id": "casa-roca-exterior",
+          "illustration": "villa2",
+          "image": null,
+          "title": { "id": "Fasad dan taman", "en": "Facade and garden" },
+          "alt": { "id": "Fasad dan taman Casa Roca Canggu", "en": "Facade and garden of Casa Roca Canggu" }
+        },
+        {
+          "id": "casa-roca-living",
+          "illustration": "interior2",
+          "image": null,
+          "title": { "id": "Ruang keluarga terbuka", "en": "Open-plan living room" },
+          "alt": { "id": "Ruang keluarga terbuka Casa Roca Canggu", "en": "Open-plan living room at Casa Roca Canggu" }
+        }
+      ]
+    },
+    {
+      "slug": "musubi-onigiri",
+      "partnerId": "musubi-onigiri",
+      "name": "Musubi Japanese Traditional Onigiri",
+      "type": { "id": "Restoran", "en": "Restaurant" },
+      "location": null,
+      "logo": null,
+      "cover": null,
+      "website": null,
+      "categories": ["photography", "content", "social", "design", "operations"],
+      "services": ["restaurantOnboarding", "photo", "social", "menu", "design", "gbp", "ordering"],
+      "summary": {
+        "id": "Restoran onigiri Jepang yang kami dampingi sejak persiapan pembukaan, termasuk visual, sosial media, desain, dan pesanan online.",
+        "en": "A Japanese onigiri restaurant we supported from its pre-opening, covering visuals, social media, design and online ordering."
+      },
+      "about": {
+        "id": [
+          "Musubi Japanese Traditional Onigiri adalah restoran yang kami bantu sejak persiapan pembukaan. Kami mengerjakan photoshoot, video, foto, dan postingan, serta pengelolaan sosial media.",
+          "Untuk kebutuhan cetak dan promosi, kami mendesain menu, bungkus sumpit, dan flyer. Di sisi operasional, kami membantu profil Google Bisnis serta pendaftaran dan pengelolaan pesanan di GoFood dan GrabFood."
+        ],
+        "en": [
+          "Musubi Japanese Traditional Onigiri is a restaurant we helped from its pre-opening. We produced the photoshoot, video, photos and posts, and manage its social media.",
+          "For print and promotion we designed the menu, chopstick wrappers and flyers. On the operations side we set up the Google Business profile and handle sign-up and management on GoFood and GrabFood."
+        ]
+      },
+      "scope": {
+        "photography": { "id": "Photoshoot restoran.", "en": "Restaurant photoshoot." },
+        "content": { "id": "Pembuatan video, foto, dan postingan.", "en": "Video, photo and post production." },
+        "social": { "id": "Pengelolaan sosial media restoran.", "en": "Social media management for the restaurant." },
+        "design": { "id": "Desain menu, bungkus sumpit, dan flyer promosi.", "en": "Menu, chopstick wrapper and promotional flyer design." },
+        "operations": { "id": "Onboarding pembukaan restoran, Google Bisnis, serta pendaftaran dan pengelolaan pesanan online (GoFood, GrabFood).", "en": "Restaurant launch onboarding, Google Business, and sign-up and management of online ordering (GoFood, GrabFood)." }
+      },
+      "media": []
+    },
+    {
+      "slug": "yayasan-lengis-hijau",
+      "partnerId": "yayasan-lengis-hijau",
+      "name": "Yayasan Lengis Hijau",
+      "type": { "id": "Yayasan", "en": "Foundation" },
+      "location": null,
+      "logo": null,
+      "cover": null,
+      "website": null,
+      "categories": ["website"],
+      "services": ["redesign"],
+      "summary": {
+        "id": "Redesain website yayasan agar lebih fungsional, informatif, aktual, dan modern.",
+        "en": "A website redesign for a foundation, making it more functional, informative, up to date and modern."
+      },
+      "about": {
+        "id": [
+          "Kami mendesain ulang website Yayasan Lengis Hijau agar lebih fungsional, informatif, aktual, dan modern."
+        ],
+        "en": [
+          "We redesigned the Yayasan Lengis Hijau website to make it more functional, informative, up to date and modern."
+        ]
+      },
+      "scope": {
+        "website": { "id": "Redesain website: lebih fungsional, informatif, aktual, dan modern.", "en": "Website redesign: more functional, informative, up to date and modern." }
+      },
+      "media": []
+    },
+    {
+      "slug": "jc-flow-media",
+      "partnerId": null,
+      "name": "JC Flow Media",
+      "type": { "id": "Studio kreatif + teknologi", "en": "Creative + tech studio" },
+      "location": "Bali",
+      "logo": "/brand/jc-flow-media-logo.png",
+      "cover": null,
+      "website": null,
+      "categories": ["branding", "website"],
+      "services": ["branding", "website"],
+      "summary": {
+        "id": "Identitas visual dan website kami sendiri, sebagai bukti cara kami bekerja.",
+        "en": "Our own visual identity and website, as proof of how we work."
+      },
+      "about": {
+        "id": [
+          "Logo, warna, dan tipografi JC Flow Media dirancang sebagai satu sistem yang dipakai di Instagram, materi cetak, dan website ini.",
+          "Website ini dibuat oleh divisi Systems dan menjadi bukti kemampuan kami. Dibuat agar cepat di HP dan tersedia dalam bahasa Indonesia dan Inggris."
+        ],
+        "en": [
+          "The JC Flow Media logo, colours and typography are designed as one system used across Instagram, print and this website.",
+          "This website was built by our Systems division and doubles as proof of what we can do. It's built to be fast on mobile and available in Indonesian and English."
+        ]
+      },
+      "scope": {
+        "branding": { "id": "Logo dan identitas visual JC Flow Media.", "en": "The JC Flow Media logo and visual identity." },
+        "website": { "id": "Website JC Flow Media ini, dari desain sampai peluncuran.", "en": "This JC Flow Media website, from design to launch." }
+      },
+      "media": []
+    }
+  ]
+}

@@ -14,8 +14,8 @@
       "description": "Landing page, website bisnis, website booking, redesain website, SEO, manajemen OTA, Google Bisnis, dan pesanan online untuk bisnis di Bali."
     },
     "karya": {
-      "title": "Karya: foto, video, dan website",
-      "description": "Galeri karya JC Flow Media untuk villa dan bisnis di Bali, ditampilkan dengan izin pemilik."
+      "title": "Karya: portofolio foto, konten, branding, desain, dan website",
+      "description": "Portofolio JC Flow Media untuk villa, restoran, dan bisnis di Bali, dikelompokkan per kategori dan ditampilkan dengan izin pemilik."
     },
     "partner": {
       "title": "Partner kami",
@@ -59,7 +59,11 @@
     "switchLabel": "Ganti ke bahasa Inggris",
     "primary": "Navigasi utama",
     "cta": "Chat WhatsApp",
-    "homeLabel": "JC Flow Media, ke beranda"
+    "homeLabel": "JC Flow Media, ke beranda",
+    "layanan": "Layanan",
+    "studioDesc": "Foto & video, sosial media, desain, branding & logo",
+    "systemsDesc": "Website, SEO, dan layanan operasional",
+    "layananMenu": "Menu layanan"
   },
   "wa": {
     "float": "Chat WhatsApp",
@@ -77,7 +81,8 @@
       "privasi": "Halo JC Flow, saya punya pertanyaan soal data saya.",
       "notFound": "Halo JC Flow, saya tersesat di website Anda.",
       "operasional": "Halo JC Flow, saya tertarik dengan layanan operasional. (OPERASIONAL)"
-    }
+    },
+    "projectMessage": "Halo JC Flow, saya melihat proyek {name} di website Anda dan ingin ngobrol."
   },
   "common": {
     "illustration": "Ilustrasi",
@@ -382,27 +387,44 @@
   },
   "karya": {
     "hero": {
-      "title": "Karya yang berbicara sendiri",
-      "lead": "Foto, video, dan website untuk bisnis di Bali. Semua karya di sini sudah diizinkan pemiliknya."
+      "title": "Karya kami",
+      "lead": "Proyek yang kami kerjakan untuk bisnis di Bali, dikelompokkan per jenis pekerjaan. Semua ditampilkan dengan izin pemilik."
     },
-    "filterLabel": "Saring karya",
-    "filters": {
+    "filterLabel": "Saring proyek berdasarkan kategori",
+    "categories": {
       "all": "Semua",
-      "villa": "Villa",
-      "interior": "Interior",
-      "video": "Video",
-      "web": "Website"
+      "photography": "Fotografi",
+      "content": "Konten Kreatif",
+      "branding": "Branding & Logo",
+      "design": "Desain",
+      "website": "Website",
+      "social": "Sosial Media",
+      "operations": "Operasional"
     },
-    "count": "karya",
-    "empty": "Belum ada karya di kategori ini.",
-    "open": "Buka",
+    "count": "proyek",
+    "empty": "Belum ada proyek di kategori ini.",
+    "viewProject": "Lihat proyek",
+    "note": "Bisnis Anda bukan villa? Layanan kami bisa disesuaikan untuk restoran, kafe, yayasan, dan usaha lokal lainnya.",
+    "detail": {
+      "back": "Semua karya",
+      "client": "Klien",
+      "type": "Jenis bisnis",
+      "location": "Lokasi",
+      "categories": "Kategori",
+      "services": "Layanan",
+      "website": "Kunjungi website",
+      "about": "Tentang proyek",
+      "scope": "Yang kami kerjakan",
+      "gallery": "Galeri",
+      "next": "Proyek berikutnya"
+    },
     "lightbox": {
       "close": "Tutup",
       "prev": "Sebelumnya",
       "next": "Berikutnya",
-      "label": "Pratinjau karya"
+      "label": "Pratinjau karya",
+      "open": "Buka"
     },
-    "note": "Bisnis Anda bukan villa? Layanan kami bisa disesuaikan untuk restoran, kafe, dan usaha lokal lainnya.",
     "final": {
       "title": "Ingin hasil seperti ini untuk bisnis Anda?",
       "lead": "Ngobrol dulu, tanpa kewajiban."
@@ -426,9 +448,10 @@
       "booking": "Booking & Kalender",
       "menu": "Desain Menu & Kemasan",
       "ordering": "Pesanan Online",
-      "redesign": "Redesain Website"
+      "redesign": "Redesain Website",
+      "branding": "Branding & Logo"
     },
-    "seeWork": "Lihat karya",
+    "seeWork": "Lihat proyek",
     "visit": "Kunjungi website",
     "final": {
       "title": "Ingin bekerja sama?",
@@ -671,7 +694,8 @@
     "privacy": "Kebijakan Privasi",
     "backTop": "Kembali ke atas",
     "hashtag": "#CreateConnectConvert",
-    "explainer": "Studio kreatif + teknologi untuk bisnis di Bali."
+    "about": "JC Flow Media adalah studio kreatif dan teknologi untuk bisnis di Bali. Kami membantu villa, restoran, dan usaha lokal tampil menarik lewat foto, video, sosial media, desain, dan branding, serta lebih mudah ditemukan dan dipesan lewat website, SEO, dan layanan operasional.",
+    "services": "Layanan"
   },
   "brand": {
     "tagline": "Create. Connect. Convert.",

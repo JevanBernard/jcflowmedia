@@ -14,8 +14,8 @@
       "description": "Landing pages, business websites, booking websites, redesigns, SEO, OTA management, Google Business and online ordering for Bali businesses."
     },
     "karya": {
-      "title": "Work: photo, video and websites",
-      "description": "Selected work by JC Flow Media for villas and businesses in Bali, shown with the owners' permission."
+      "title": "Work: photography, content, branding, design and website portfolio",
+      "description": "JC Flow Media's portfolio for villas, restaurants and businesses in Bali, grouped by category and shown with the owner's permission."
     },
     "partner": {
       "title": "Our partners",
@@ -59,7 +59,11 @@
     "switchLabel": "Ganti ke Bahasa Indonesia",
     "primary": "Main navigation",
     "cta": "Chat on WhatsApp",
-    "homeLabel": "JC Flow Media, go to home page"
+    "homeLabel": "JC Flow Media, go to home page",
+    "layanan": "Services",
+    "studioDesc": "Photo & video, social media, design, branding & logos",
+    "systemsDesc": "Websites, SEO, and operations",
+    "layananMenu": "Services menu"
   },
   "wa": {
     "float": "Chat on WhatsApp",
@@ -77,7 +81,8 @@
       "privasi": "Hi JC Flow, I have a question about my data.",
       "notFound": "Hi JC Flow, I got a bit lost on your website.",
       "operasional": "Hi JC Flow, I'm interested in your operations services. (OPERASIONAL)"
-    }
+    },
+    "projectMessage": "Hi JC Flow, I saw the {name} project on your website and I'd like to chat."
   },
   "common": {
     "illustration": "Illustration",
@@ -382,27 +387,44 @@
   },
   "karya": {
     "hero": {
-      "title": "Work that speaks for itself",
-      "lead": "Photos, video and websites for Bali businesses. Everything here is shown with the owner's permission."
+      "title": "Our work",
+      "lead": "Projects we've done for Bali businesses, grouped by type of work. Everything is shown with the owner's permission."
     },
-    "filterLabel": "Filter work",
-    "filters": {
+    "filterLabel": "Filter projects by category",
+    "categories": {
       "all": "All",
-      "villa": "Villas",
-      "interior": "Interiors",
-      "video": "Video",
-      "web": "Websites"
+      "photography": "Photography",
+      "content": "Content Creation",
+      "branding": "Branding & Logos",
+      "design": "Design",
+      "website": "Website",
+      "social": "Social Media",
+      "operations": "Operations"
     },
     "count": "projects",
-    "empty": "Nothing in this category yet.",
-    "open": "Open",
+    "empty": "No projects in this category yet.",
+    "viewProject": "View project",
+    "note": "Not a villa? Our services adapt to restaurants, cafés, foundations and other local businesses too.",
+    "detail": {
+      "back": "All work",
+      "client": "Client",
+      "type": "Type of business",
+      "location": "Location",
+      "categories": "Categories",
+      "services": "Services",
+      "website": "Visit website",
+      "about": "About the project",
+      "scope": "What we did",
+      "gallery": "Gallery",
+      "next": "Next project"
+    },
     "lightbox": {
       "close": "Close",
       "prev": "Previous",
       "next": "Next",
-      "label": "Work preview"
+      "label": "Work preview",
+      "open": "Open"
     },
-    "note": "Not a villa? Our services adapt to restaurants, cafés and other local businesses too.",
     "final": {
       "title": "Want results like these for your business?",
       "lead": "Let's chat, no obligation."
@@ -426,9 +448,10 @@
       "booking": "Booking & Calendar",
       "menu": "Menu & Packaging Design",
       "ordering": "Online Ordering",
-      "redesign": "Website Redesign"
+      "redesign": "Website Redesign",
+      "branding": "Branding & Logos"
     },
-    "seeWork": "See the work",
+    "seeWork": "View project",
     "visit": "Visit website",
     "final": {
       "title": "Want to work together?",
@@ -671,7 +694,8 @@
     "privacy": "Privacy Policy",
     "backTop": "Back to top",
     "hashtag": "#CreateConnectConvert",
-    "explainer": "A creative + tech studio for Bali businesses."
+    "about": "JC Flow Media is a creative and tech studio for Bali businesses. We help villas, restaurants and local brands look great through photo, video, social media, design and branding, and get found and booked more easily through websites, SEO and online operations.",
+    "services": "Services"
   },
   "brand": {
     "tagline": "Create. Connect. Convert.",

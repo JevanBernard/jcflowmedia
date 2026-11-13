@@ -14,15 +14,17 @@ export function Footer({
   t: Messages;
   partnersEnabled: boolean;
 }) {
-  const links: PageKey[] = ["studio", "systems", "karya", ...(partnersEnabled ? (["partner"] as PageKey[]) : []), "tentang", "audit", "kontak"];
+  const links: PageKey[] = ["karya", ...(partnersEnabled ? (["partner"] as PageKey[]) : []), "tentang", "audit", "kontak"];
   const year = new Date().getFullYear();
+  const linkCls = "inline-flex min-h-11 items-center font-medium text-cream/90 hover:text-brand-light";
   return (
     <footer className="on-dark relative overflow-hidden pt-20 sm:pt-28">
       <div className="container-x">
-        <div className="grid gap-12 lg:grid-cols-12">
-          <div className="lg:col-span-5">
+        <div className="grid gap-12 lg:grid-cols-12 lg:gap-8">
+          {/* Apa itu JC Flow Media */}
+          <div className="lg:col-span-4">
             <Logo variant="full" tone="white" width={140} />
-            <p className="mt-6 max-w-sm text-cream/75">{t.footer.explainer}</p>
+            <p className="mt-6 max-w-md text-[1.0625rem] leading-relaxed text-cream/80">{t.footer.about}</p>
             <div className="mt-8">
               <WaButton message={t.wa.messages.home} position="footer" lang={locale} className="btn btn-grad">
                 <WhatsAppGlyph /> {t.common.chatWa}
@@ -30,12 +32,28 @@ export function Footer({
             </div>
           </div>
 
-          <nav aria-label={t.footer.explore} className="lg:col-span-3 lg:col-start-7">
+          <nav aria-label={t.footer.services} className="lg:col-span-3">
+            <p className="t-label text-cream/60">{t.footer.services}</p>
+            <ul className="mt-5 grid gap-5">
+              {(["studio", "systems"] as const).map((k) => (
+                <li key={k}>
+                  <Link href={href(locale, pagePaths[k])} className="group block">
+                    <span className="inline-flex items-center gap-2 text-[1.0625rem] font-semibold text-cream/95 group-hover:text-brand-light">
+                      JC Flow {t.nav[k]} <Icon name="arrow" width={16} height={16} className="transition-transform group-hover:translate-x-1" />
+                    </span>
+                    <span className="mt-1 block max-w-[28ch] text-[0.9375rem] text-cream/65">{t.nav[k === "studio" ? "studioDesc" : "systemsDesc"]}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <nav aria-label={t.footer.explore} className="lg:col-span-2">
             <p className="t-label text-cream/60">{t.footer.explore}</p>
             <ul className="mt-5 grid gap-1">
               {links.map((k) => (
                 <li key={k}>
-                  <Link href={href(locale, pagePaths[k])} className="inline-flex min-h-11 items-center text-[1.0625rem] font-medium text-cream/90 hover:text-brand-light">
+                  <Link href={href(locale, pagePaths[k])} className={linkCls}>
                     {t.nav[k]}
                   </Link>
                 </li>
@@ -47,12 +65,12 @@ export function Footer({
             <p className="t-label text-cream/60">{t.footer.contact}</p>
             <ul className="mt-5 grid gap-1">
               <li>
-                <a href={`mailto:${site.email}`} className="inline-flex min-h-11 items-center gap-3 font-medium text-cream/90 hover:text-brand-light">
+                <a href={`mailto:${site.email}`} className={`${linkCls} gap-3`}>
                   <Icon name="mail" width={20} height={20} /> {site.email}
                 </a>
               </li>
               <li>
-                <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-3 font-medium text-cream/90 hover:text-brand-light">
+                <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className={`${linkCls} gap-3`}>
                   <Icon name="instagram" width={20} height={20} /> @{site.instagram}
                   <span className="sr-only">{t.common.opensNewTab}</span>
                 </a>

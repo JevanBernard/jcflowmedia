@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Illustration } from "./Illustration";
 import type { Locale } from "@/lib/i18n";
-import type { Work } from "@/lib/site";
+import type { MediaItem } from "@/lib/site";
 
 /** Foto asli bila tersedia; bila belum, ilustrasi berlabel "Ilustrasi". */
 export function WorkMedia({
@@ -11,7 +11,7 @@ export function WorkMedia({
   sizes = "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw",
   priority = false,
 }: {
-  work: Work;
+  work: Pick<MediaItem, "id" | "illustration" | "image" | "alt">;
   locale: Locale;
   label: string;
   sizes?: string;

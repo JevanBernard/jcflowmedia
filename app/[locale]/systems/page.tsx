@@ -7,7 +7,7 @@ import { WorkMedia } from "@/components/WorkMedia";
 import { href } from "@/lib/i18n";
 import { localeOf, resolve, type PageProps } from "@/lib/page";
 import { pageMetadata } from "@/lib/seo";
-import { allWorks } from "@/lib/site";
+import { getProject } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   return pageMetadata(await localeOf(params), "systems");
@@ -21,7 +21,8 @@ const typeIcons: IconName[] = ["layers", "building", "calendar", "design"];
 export default async function SystemsPage({ params }: PageProps) {
   const { locale, t } = await resolve(params);
   const s = t.systems;
-  const proof = allWorks.find((w) => w.category === "web");
+  const project = getProject("casa-roca-canggu");
+  const proof = project?.media.find((m) => m.id === "casa-roca-website");
 
   return (
     <>
@@ -130,7 +131,7 @@ export default async function SystemsPage({ params }: PageProps) {
             <div className="px-2 pb-4 lg:col-span-5 lg:px-4">
               <h2 className="t-h2">{s.proof.title}</h2>
               <p className="t-lead mt-4">{s.proof.desc}</p>
-              <Link href={`${href(locale, "/karya")}#${proof.id}`} className="link-arrow mt-6">
+              <Link href={href(locale, "/karya/casa-roca-canggu")} className="link-arrow mt-6">
                 {s.proof.link} <Icon name="arrow" />
               </Link>
               <p className="mt-8 flex items-center gap-3 rounded-2xl bg-cream p-4 text-sm font-medium">

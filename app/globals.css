@@ -334,7 +334,39 @@ img, svg, video { display: block; max-width: 100%; }
   transition: transform var(--dur-base) var(--ease-out);
 }
 @media (hover: hover) { .nav-link:hover::after { transform: scaleX(1); } }
-.nav-link[aria-current="page"]::after { transform: scaleX(1); }
+.nav-link[aria-current="page"]::after, .nav-link[data-active="true"]::after { transform: scaleX(1); }
+button.nav-link { background: none; border: 0; cursor: pointer; font-family: inherit; }
+
+/* Menu dropdown "Layanan" */
+.dropdown {
+  position: absolute;
+  left: -0.75rem;
+  top: 100%;
+  padding-top: 0.75rem;
+  width: min(380px, 90vw);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity var(--dur-fast) var(--ease-out), transform var(--dur-base) var(--ease-out), visibility 0s linear var(--dur-base);
+}
+.dropdown[data-open="true"] { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
+.dropdown-panel {
+  background: #fff;
+  border-radius: 22px;
+  padding: 0.5rem;
+  box-shadow: 0 0 0 1px var(--color-line), 0 24px 48px -24px rgb(31 27 24 / 0.35);
+}
+.dropdown-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.75rem;
+  border-radius: 16px;
+  transition: background-color var(--dur-fast);
+}
+@media (hover: hover) { .dropdown-item:hover { background: var(--color-cream); } }
+.dropdown-item[aria-current="page"] { background: var(--color-cream); }
+@media (prefers-reduced-motion: reduce) { .dropdown { transform: none; } }
 
 .lang-switch {
   display: inline-flex;

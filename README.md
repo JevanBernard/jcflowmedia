@@ -9,6 +9,7 @@ npm install
 cp .env.example .env.local   # isi key form & analitik
 npm run dev                  # http://localhost:3000
 npm run build && npm start   # produksi
+# build ke folder lain saat dev server sedang jalan: NEXT_DIST_DIR=.next-build npm run build
 ```
 
 Deploy: hubungkan repo GitHub ke Vercel (atau Cloudflare Pages), set environment variable dari `.env.example`.
@@ -39,7 +40,7 @@ Versi horizontal disusun dari file resmi (monogram + wordmark, skala seragam, wa
 ## Mengubah konten (tanpa mengubah kode)
 
 - **Teks**: `content/messages/id.json` dan `en.json` (struktur sama).
-- **Karya**: `content/works.json`. Taruh foto di `public/works/` lalu isi `"image": "/works/nama.webp"`. Selama `image` masih `null`, tampil ilustrasi berlabel "Ilustrasi". Video: isi `"video"`.
+- **Karya (portofolio)**: `content/projects.json`, satu entri per proyek/klien. Kolom `categories` menentukan filter di halaman Karya (kategori: photography, content, branding, design, website, social, operations; nama tampil di `karya.categories` pada file pesan). Kolom `scope` menjelaskan apa yang dikerjakan per kategori, `about` adalah penjelasan proyek. Taruh foto di `public/works/` lalu isi `cover` (sampul) dan `media[].image` (galeri). Selama `cover` kosong, logo klien jadi sampul; `media` dengan `image: null` tampil sebagai ilustrasi berlabel "Ilustrasi". Proyek partner hanya tampil bila `consent: true` di `partners.json`. Teks ringkasan masih DRAF dari daftar layanan di PRD, mohon ditinjau.
 - **Partner**: `content/partners.json`. Set `"consent": true` hanya setelah ada izin tertulis. Urutan di file = urutan tampil. Halaman `/partner`, menu, dan strip logo beranda aktif selama ada partner berizin.
 
 ## Fitur PRD

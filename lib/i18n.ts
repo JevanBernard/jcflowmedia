@@ -47,7 +47,9 @@ export function switchPath(pathname: string, to: Locale): string {
 export function pageKeyFromPath(pathname: string): PageKey | "notFound" {
   const bare = pathname === "/en" ? "/" : pathname.replace(/^\/en(?=\/)/, "");
   const found = (Object.entries(pagePaths) as [PageKey, string][]).find(([, p]) => p === bare);
-  return found ? found[0] : "notFound";
+  if (found) return found[0];
+  // Halaman detail proyek (/karya/slug) dihitung sebagai Karya
+  return bare.startsWith("/karya/") ? "karya" : "notFound";
 }
 
 export function format(str: string, vars: Record<string, string | number>) {

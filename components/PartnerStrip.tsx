@@ -1,13 +1,32 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "./Icon";
 import { href, type Locale } from "@/lib/i18n";
 import type { Partner } from "@/lib/site";
 
-/** Tanda partner: logo bila sudah ada, nama bisnis bila belum. */
-export function PartnerMark({ partner, className = "" }: { partner: Partner; className?: string }) {
+/**
+ * Tanda partner: logo bila sudah ada (alt = nama bisnis), nama bisnis sebagai teks bila belum.
+ * `height` = tinggi area logo; logo selalu object-contain, tidak diubah warna atau proporsinya.
+ */
+export function PartnerMark({
+  partner,
+  height = 72,
+  sizes = "160px",
+  priority = false,
+  className = "",
+}: {
+  partner: Partner;
+  height?: number;
+  sizes?: string;
+  priority?: boolean;
+  className?: string;
+}) {
   if (partner.logo) {
-    return <img src={partner.logo} alt={partner.name} loading="lazy" className={`max-h-12 w-auto max-w-[80%] object-contain ${className}`} />;
+    return (
+      <span className="relative block w-full" style={{ height }}>
+        <Image src={partner.logo} alt={partner.name} fill sizes={sizes} priority={priority} className="object-contain" />
+      </span>
+    );
   }
   return <span className={`text-balance text-center font-bold leading-tight tracking-[-0.01em] ${className}`}>{partner.name}</span>;
 }
@@ -49,10 +68,10 @@ export function PartnerStrip({
           <li key={p.id} className="w-[62%] flex-none snap-start xs:w-[44%] sm:w-[30%] lg:w-auto">
             <Link
               href={`${base}#${p.id}`}
-              className="card grid h-28 place-items-center px-5 transition-transform duration-300 hover:-translate-y-1"
+              className="card grid h-40 place-items-center px-5 transition-transform duration-300 hover:-translate-y-1"
               aria-label={p.logo ? undefined : p.name}
             >
-              <PartnerMark partner={p} className="text-[0.9375rem]" />
+              <PartnerMark partner={p} height={108} sizes="(min-width:1024px) 200px, 50vw" className="text-[0.9375rem]" />
             </Link>
           </li>
         ))}

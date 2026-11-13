@@ -7,7 +7,7 @@ import { PartnerMark } from "@/components/PartnerStrip";
 import { href } from "@/lib/i18n";
 import { localeOf, resolve, type PageProps } from "@/lib/page";
 import { pageMetadata } from "@/lib/seo";
-import { PARTNERS_ENABLED, consentedPartners } from "@/lib/site";
+import { PARTNERS_ENABLED, consentedPartners, getProject } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   if (!PARTNERS_ENABLED) return { robots: { index: false } };
@@ -33,8 +33,8 @@ export default async function PartnerPage({ params }: PageProps) {
               data-reveal
               style={{ ["--d" as string]: i % 3 }}
             >
-              <div className="grid h-28 place-items-center rounded-2xl bg-cream px-6">
-                <PartnerMark partner={partner} className="text-lg" />
+              <div className="grid h-52 place-items-center rounded-2xl bg-cream px-8">
+                <PartnerMark partner={partner} height={136} sizes="(min-width:1024px) 280px, 60vw" priority={i < 2} className="text-lg" />
               </div>
               <h2 className="t-h3 mt-6">{partner.name}</h2>
               <p className="mt-1 text-muted">
@@ -57,10 +57,10 @@ export default async function PartnerPage({ params }: PageProps) {
                   </footer>
                 </blockquote>
               )}
-              {(partner.workId || partner.website) && (
+              {(getProject(partner.id) || partner.website) && (
                 <div className="mt-auto flex flex-wrap gap-x-6 pt-6">
-                  {partner.workId && (
-                    <Link href={`${href(locale, "/karya")}#${partner.workId}`} className="link-arrow">
+                  {getProject(partner.id) && (
+                    <Link href={href(locale, `/karya/${partner.id}`)} className="link-arrow">
                       {p.seeWork} <Icon name="arrow" />
                     </Link>
                   )}

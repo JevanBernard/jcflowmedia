@@ -1,10 +1,23 @@
 import type { MetadataRoute } from "next";
 import { href, pagePaths, type PageKey } from "@/lib/i18n";
-import { PARTNERS_ENABLED, SITE_URL } from "@/lib/site";
+import { PARTNERS_ENABLED, SITE_URL, allProjects } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const keys = (Object.keys(pagePaths) as PageKey[]).filter((k) => k !== "partner" || PARTNERS_ENABLED);
-  return keys.flatMap((k) =>
+  const projectEntries = allProjects.flatMap((p) =>
+    (["id", "en"] as const).map((l) => ({
+      url: `${SITE_URL}${href(l, `/karya/${p.slug}`)}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+      alternates: {
+        languages: {
+          id: `${SITE_URL}${href("id", `/karya/${p.slug}`)}`,
+          en: `${SITE_URL}${href("en", `/karya/${p.slug}`)}`,
+        },
+      },
+    })),
+  );
+  const pageEntries = keys.flatMap((k) =>
     (["id", "en"] as const).map((l) => ({
       url: `${SITE_URL}${href(l, pagePaths[k])}`,
       changeFrequency: "monthly" as const,
@@ -17,4 +30,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
     })),
   );
+  return [...pageEntries, ...projectEntries];
 }
